@@ -6,8 +6,8 @@
     "authors": [ "Xaritscin" ],
     "description": "Changes the setting from New England to an undescribed region in the tropics, initially based out of Desert Region mod.",
     "category": "content",
+    "obsolete": true,
     "dependencies": [ "dda" ],
-    "version": "0.80",
-    "obsolete": false
+    "version": "0.80"
   }
 ]

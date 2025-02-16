@@ -7,6 +7,7 @@
     "maintainers": [ "StandingStorm" ],
     "description": "Psionic powers for Cataclysm",
     "category": "content",
+    "obsolete": true,
     "dependencies": [ "dda" ]
   }
 ]
