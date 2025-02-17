@@ -1955,7 +1955,6 @@
       { "group": "softdrinks_canned", "prob": 90 },
       [ "choco_coffee_beans", 20 ],
       { "prob": 20, "group": "caffeine_bottle_plastic_pill_supplement_1_10" },
-      [ "cola_meth", 1 ],
       [ "picklocks", 10 ],
       [ "wolfsuit", 4 ],
       [ "dinosuit", 4 ],

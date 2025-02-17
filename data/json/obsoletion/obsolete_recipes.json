@@ -1,0 +1,22 @@
+[
+  {
+    "result": "drink_strawberry_surprise",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "drink_boozeberry",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "cola_meth",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "drink_hobo",
+    "type": "recipe",
+    "obsolete": true
+  }
+]
