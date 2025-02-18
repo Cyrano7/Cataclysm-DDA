@@ -233,21 +233,6 @@
   },
   {
     "type": "GENERIC",
-    "id": "fp_loyalty_card",
-    "category": "other",
-    "symbol": "-",
-    "color": "pink",
-    "name": { "str": "Foodplace loyalty card" },
-    "description": "A bright pink loyalty card, all the points are stamped.  This would definitely prove your fidelity to Foodplace, if that still meant anything…",
-    "price": 0,
-    "price_postapoc": 0,
-    "material": [ "paper" ],
-    "flags": [ "TRADER_AVOID", "CREDIT_CARD_SHAPED", "TINDER" ],
-    "weight": "3 g",
-    "volume": "5 ml"
-  },
-  {
-    "type": "GENERIC",
     "id": "twig",
     "name": { "str": "twig" },
     "looks_like": "stick",
