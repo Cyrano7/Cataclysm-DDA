@@ -1114,7 +1114,7 @@
     "name": { "str": "Robust Genetics" },
     "points": 3,
     "description": "Your genetics have rapidly adapted to the chaos of the Cataclysm, and the genetic damage caused by mutations will fade much quicker.",
-    "starting_trait": true,
+    "starting_trait": false,
     "cancels": [ "CHAOTIC_BAD" ],
     "category": [ "FISH", "SLIME", "ALPHA", "MEDICAL", "PLANT" ],
     "vitamin_rates": [ [ "instability", 7200 ] ]
@@ -2016,7 +2016,7 @@
     "points": -8,
     "purifiable": false,
     "description": "The events of the Cataclysm have damaged your DNA beyond repair.  You mutate frequently, all mutations you receive (from any source) are negative, and your instability is rapidly growing out of control.",
-    "starting_trait": true,
+    "starting_trait": false,
     "cancels": [ "ROBUST" ],
     "valid": false,
     "vitamin_rates": [ [ "instability", -60 ] ]
