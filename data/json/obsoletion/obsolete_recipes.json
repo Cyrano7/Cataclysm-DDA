@@ -18,5 +18,15 @@
     "result": "drink_hobo",
     "type": "recipe",
     "obsolete": true
+  },
+  {
+    "result": "money_strap_FMCNote",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "money_bundle_FMCNote",
+    "type": "recipe",
+    "obsolete": true
   }
 ]

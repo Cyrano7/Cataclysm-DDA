@@ -382,19 +382,6 @@
   {
     "type": "recipe",
     "activity_level": "NO_EXERCISE",
-    "result": "money_strap_FMCNote",
-    "category": "CC_*",
-    "subcategory": "CSC_*_NESTED",
-    "skill_used": "fabrication",
-    "time": "60 s",
-    "autolearn": true,
-    "reversible": { "time": "4 s" },
-    "components": [ [ [ "FMCNote", 100 ] ], [ [ "paper", 1 ] ] ],
-    "flags": [ "BLIND_EASY" ]
-  },
-  {
-    "type": "recipe",
-    "activity_level": "NO_EXERCISE",
     "result": "money_bundle_one",
     "category": "CC_*",
     "subcategory": "CSC_*_NESTED",
@@ -481,19 +468,6 @@
     "autolearn": true,
     "reversible": { "time": "4 s" },
     "components": [ [ [ "money_strap_hundred", 10 ] ], [ [ "rubber_band", 2 ], [ "cordage_short", 2, "LIST" ] ] ],
-    "flags": [ "BLIND_EASY" ]
-  },
-  {
-    "type": "recipe",
-    "activity_level": "NO_EXERCISE",
-    "result": "money_bundle_FMCNote",
-    "category": "CC_*",
-    "subcategory": "CSC_*_NESTED",
-    "skill_used": "fabrication",
-    "time": "6 s",
-    "autolearn": true,
-    "reversible": { "time": "4 s" },
-    "components": [ [ [ "money_strap_FMCNote", 10 ] ], [ [ "rubber_band", 2 ], [ "cordage_short", 2, "LIST" ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
