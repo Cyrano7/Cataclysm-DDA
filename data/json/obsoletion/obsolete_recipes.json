@@ -28,5 +28,25 @@
     "result": "money_bundle_FMCNote",
     "type": "recipe",
     "obsolete": true
+  },
+  {
+    "result": "2_shot_special",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "revolver_shotgun",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "bigun",
+    "type": "recipe",
+    "obsolete": true
+  },
+  {
+    "result": "triple_launcher_simple",
+    "type": "recipe",
+    "obsolete": true
   }
 ]
