@@ -331,13 +331,8 @@
       "naked",
       "unemployed",
       "homeless",
-      "hitchhiker",
       "patriot",
-      "clown",
-      "lost_sub",
-      "spouse",
-      "musician",
-      "true_foodperson"
+      "musician"
     ],
     "eoc": [ "scenario_infected", "scenario_bad_day" ],
     "requirement": "achievement_survive_28_days",
@@ -674,7 +669,6 @@
     "professions": [
       "portal_traveler",
       "churl",
-      "true_foodperson",
       "unemployed",
       "naked",
       "mutant_patient",

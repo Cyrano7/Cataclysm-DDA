@@ -359,12 +359,6 @@
   {
     "type": "item_group",
     "subtype": "collection",
-    "id": "flintlock_pouch_reenactor",
-    "entries": [ { "item": "flintlock_ammo", "charges": 14 } ]
-  },
-  {
-    "type": "item_group",
-    "subtype": "collection",
     "id": "bandolier_ww_gunslinger",
     "entries": [ { "item": "45colt_jhp", "charges": 18 } ]
   },
@@ -373,18 +367,6 @@
     "subtype": "collection",
     "id": "bandolier_cowboy",
     "entries": [ { "item": "357mag_jhp", "charges": 18 } ]
-  },
-  {
-    "type": "item_group",
-    "subtype": "collection",
-    "id": "dog_lover_bag",
-    "entries": [
-      { "item": "rubber_harness_dog" },
-      { "item": "rubber_harness_dog" },
-      { "item": "dog_whistle" },
-      { "item": "dogfood_dry" },
-      { "item": "dogfood_dry" }
-    ]
   },
   {
     "type": "item_group",
@@ -970,193 +952,6 @@
       "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
     },
     "age_lower": 18
-  },
-  {
-    "type": "profession",
-    "id": "beekeeper",
-    "name": "Beekeeper",
-    "description": "You used to be a professional apiarist, building and maintaining beehives.  You had to abandon your precious bees when the Cataclysm struck, but at least you managed to grab some utensils and honey.",
-    "points": 2,
-    "skills": [ { "name": "fabrication", "level": 4 }, { "name": "survival", "level": 4 } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "beekeeping_hood" },
-          { "item": "beekeeping_suit" },
-          { "item": "beekeeping_gloves" },
-          { "item": "socks" },
-          { "item": "boots" },
-          { "item": "tank_top" },
-          { "item": "honeycomb" },
-          { "item": "honey_bottled" },
-          { "item": "honey_bottled" },
-          { "group": "charged_smart_phone" },
-          { "item": "honey_scraper", "container-item": "sheath" }
-        ]
-      },
-      "male": { "entries": [ { "item": "boxer_briefs" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "baseball_player",
-    "name": "Baseball Player",
-    "description": "You played with the local team.  You're the only one left, but now you can use your trusty bat for another purpose.  Home run!",
-    "points": 2,
-    "skills": [
-      { "level": 4, "name": "melee" },
-      { "level": 4, "name": "bashing" },
-      { "level": 4, "name": "throw" },
-      { "level": 4, "name": "swimming" }
-    ],
-    "proficiencies": [ "prof_athlete_basic", "prof_maces_familiar", "prof_maces_pro" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "baseball" },
-          { "item": "jacket_light" },
-          { "item": "jeans" },
-          { "item": "socks" },
-          { "item": "cleats" },
-          { "item": "helmet_ball" },
-          { "item": "sports_drink" },
-          { "item": "gum" },
-          { "group": "charged_smart_phone" },
-          { "item": "bat", "custom-flags": [ "auto_wield" ] },
-          { "item": "tshirt", "variant": "generic_tshirt" }
-        ]
-      },
-      "male": { "entries": [ { "item": "boxer_shorts" } ] },
-      "female": { "entries": [ { "item": "sports_bra" }, { "item": "panties" } ] }
-    },
-    "age_lower": 16
-  },
-  {
-    "type": "profession",
-    "id": "basketball_player",
-    "name": "Basketball Player",
-    "description": "Your first major game was abruptly cancelled when zombies stormed the court.  Quick feet and good reflexes meant you were among the lucky few to escape the stadium alive.",
-    "points": 2,
-    "skills": [ { "level": 5, "name": "dodge" }, { "level": 5, "name": "throw" }, { "level": 4, "name": "swimming" } ],
-    "proficiencies": [ "prof_athlete_basic" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "tank_top" },
-          { "item": "b_shorts" },
-          { "item": "socks_ankle" },
-          { "item": "sneakers" },
-          { "item": "basketball" },
-          { "item": "sports_drink" },
-          { "item": "runner_bag" },
-          { "item": "jersey", "snippets": [ "basin" ] },
-          { "group": "charged_smart_phone" }
-        ]
-      },
-      "male": { "entries": [ { "item": "boxer_shorts" } ] },
-      "female": { "entries": [ { "item": "sports_bra" }, { "item": "panties" } ] }
-    },
-    "age_lower": 16
-  },
-  {
-    "type": "profession",
-    "id": "football_player",
-    "name": "Football Player",
-    "description": "Your epic touchdown was ruined when your coach's guts were torn out by undead fans.  Now you're first pick in the apocalypse draft.",
-    "points": 3,
-    "skills": [
-      { "level": 5, "name": "throw" },
-      { "level": 4, "name": "melee" },
-      { "level": 4, "name": "unarmed" },
-      { "level": 4, "name": "dodge" },
-      { "level": 4, "name": "swimming" }
-    ],
-    "proficiencies": [ "prof_athlete_basic", "prof_unarmed_familiar" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "helmet_football" },
-          { "item": "football_armor" },
-          { "item": "mouthpiece" },
-          { "item": "socks_ankle" },
-          { "item": "cleats" },
-          { "item": "football" },
-          { "item": "knee_pads" },
-          { "item": "sports_drink" },
-          { "item": "jersey", "snippets": [ "endsville" ] },
-          { "group": "charged_smart_phone" },
-          { "item": "pants", "variant": "pants_blue" }
-        ]
-      },
-      "male": { "entries": [ { "item": "under_armor_shorts" } ] },
-      "female": { "entries": [ { "item": "sports_bra" }, { "item": "panties" } ] }
-    },
-    "age_lower": 16
-  },
-  {
-    "type": "profession",
-    "id": "true_foodperson",
-    "name": "True Foodperson",
-    "description": "You are the true Foodperson.  Some might think Foodperson is just a mascot, but you know better.  The mask has become your face, you are real, and the only thing standing between this world and oblivion is you.",
-    "points": 0,
-    "traits": [ "PROF_FOODP" ],
-    "skills": [ { "level": 2, "name": "speech" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "pants_cargo" },
-          { "item": "cape_fp" },
-          { "item": "dress_shirt" },
-          { "item": "armguard_hard" },
-          { "item": "legguard_hard" },
-          { "item": "gloves_rubber" },
-          { "item": "socks" },
-          { "item": "chestguard_hard" },
-          { "item": "boots_rubber" },
-          {
-            "item": "medium_disposable_cell",
-            "ammo-item": "battery",
-            "charges": 1200,
-            "container-item": "foodperson_mask"
-          },
-          { "item": "foodplace_snack_bar", "container-item": "fanny" },
-          { "item": "foodplace_snack_bar" },
-          { "item": "foodplace_zero_drink" },
-          { "item": "bat", "custom-flags": [ "auto_wield" ] }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "cyclist",
-    "name": "Professional Cyclist",
-    "description": "You were a promising cyclist with a bright career in front of you before this all happened.  Perhaps you'll never get to participate in the grand tours now, but as the saying goes, life is like riding a bicycle: you've got to keep moving.",
-    "points": 4,
-    "proficiencies": [ "prof_athlete_basic", "prof_athlete_expert", "prof_driver" ],
-    "skills": [ { "level": 5, "name": "driving" }, { "level": 4, "name": "dodge" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "helmet_bike" },
-          { "item": "folded_bicycle" },
-          { "item": "under_armor_shorts" },
-          { "item": "under_armor" },
-          { "item": "socks_ankle" },
-          { "item": "sneakers" },
-          { "item": "sports_drink" },
-          { "item": "wristwatch" },
-          { "item": "fanny" },
-          { "item": "fancy_sunglasses" },
-          { "group": "charged_smart_phone" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "panties" }, { "item": "sports_bra" } ] }
-    }
   },
   {
     "type": "profession",
@@ -1858,41 +1653,6 @@
   },
   {
     "type": "profession",
-    "id": "maid",
-    "name": { "male": "Butler", "female": "Maid" },
-    "description": "You were hired to take care of the housekeeping for a wealthy family.  Naturally, when things got bad, they all took off on a family vacation to somewhere unknown, leaving you to your fate.",
-    "points": 1,
-    "skills": [ { "level": 3, "name": "tailor" }, { "level": 3, "name": "cooking" }, { "level": 3, "name": "driving" } ],
-    "proficiencies": [ "prof_food_prep", "prof_closures", "prof_knife_skills", "prof_knives_familiar" ],
-    "items": {
-      "both": { "entries": [ { "item": "pocketwatch" }, { "item": "knife_steak" }, { "group": "charged_smart_phone" } ] },
-      "male": {
-        "entries": [
-          { "item": "briefs" },
-          { "item": "socks" },
-          { "item": "dress_shoes" },
-          { "item": "tux" },
-          { "item": "glasses_monocle" },
-          { "item": "collarpin" }
-        ]
-      },
-      "female": {
-        "entries": [
-          { "item": "panties" },
-          { "item": "bra" },
-          { "item": "stockings" },
-          { "item": "garter_belt" },
-          { "item": "dress_shoes" },
-          { "item": "maid_dress" },
-          { "item": "maid_hat" },
-          { "item": "corset_waist" },
-          { "item": "fc_hairpin" }
-        ]
-      }
-    }
-  },
-  {
-    "type": "profession",
     "id": "captive",
     "name": { "male": "Captive", "female": "Captive" },
     "description": "You were following a road at night, trying to get away from the horrors of the city, when you heard a voice calling out in the dark.  You followed, hoping they were friendly, but suddenly felt a searing pain in your head and blacked out.  You just woke up in this strange place… are you even on Earth anymore?",
@@ -2068,39 +1828,6 @@
       },
       "male": { "entries": [ { "item": "boxer_shorts" } ] },
       "female": { "entries": [ { "item": "bra" }, { "item": "boy_shorts" } ] }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "groundskeeper",
-    "name": "Landscaper",
-    "description": "You used to mow lawns and trim hedges for the wealthy.  Contract work was getting scarce even before the zombies came, but now you've got nothing left except your tools and expertise.",
-    "points": 1,
-    "proficiencies": [ "prof_short_swords_familiar", "prof_short_swords_pro" ],
-    "skills": [
-      { "level": 3, "name": "fabrication" },
-      { "level": 3, "name": "survival" },
-      { "level": 2, "name": "melee" },
-      { "level": 2, "name": "cutting" }
-    ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "tank_top" },
-          { "item": "jacket_windbreaker" },
-          { "item": "hat_ball" },
-          { "item": "gloves_work" },
-          { "item": "glasses_safety" },
-          { "item": "socks" },
-          { "item": "sneakers" },
-          { "item": "pants_cargo" },
-          { "group": "charged_smart_phone" },
-          { "item": "g_shovel" },
-          { "item": "scabbard", "contents-item": "machete" }
-        ]
-      },
-      "male": { "entries": [ { "item": "boxer_shorts" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
     }
   },
   {
@@ -2324,80 +2051,6 @@
       },
       "male": { "entries": [ { "item": "boxer_shorts" } ] },
       "female": { "entries": [ { "item": "bra" }, { "item": "boy_shorts" } ] }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "dog_lover",
-    "name": "Dog Lover",
-    "description": "You spent your days running around with your faithful dogs by your side.  When the world ended, you grabbed your companions along with some of their things to protect them.  The zombies could be nearby, but at least your canine friends won't have to worry about the rain.",
-    "points": 2,
-    "skills": [ { "level": 3, "name": "survival" } ],
-    "traits": [ "ANIMALEMPATH" ],
-    "pets": [ { "name": "mon_dog", "amount": 2 } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "jeans" },
-          { "item": "longshirt" },
-          { "item": "socks" },
-          { "item": "sneakers" },
-          { "item": "water_clean" },
-          { "item": "wristwatch" },
-          { "item": "petpack" },
-          { "item": "pet_carrier" },
-          { "group": "charged_smart_phone" },
-          { "item": "mbag", "contents-group": "dog_lover_bag" }
-        ]
-      },
-      "male": { "entries": [ { "item": "boxer_shorts" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
-    },
-    "missions": [ "MISSION_DOG_LOVER" ]
-  },
-  {
-    "type": "profession",
-    "id": "crazy_cat_lady",
-    "name": { "male": "Crazy Cat Dude", "female": "Crazy Cat Lady" },
-    "description": "Everyone is dead?  Oh well, it doesn't matter; it's not like you got along with people much anyway.  Your beloved cats are all the friends you need!",
-    "points": 2,
-    "skills": [ { "level": 3, "name": "tailor" }, { "level": 3, "name": "survival" }, { "level": 3, "name": "cooking" } ],
-    "proficiencies": [ "prof_knitting", "prof_knitting_speed" ],
-    "pets": [
-      { "name": "mon_cat", "amount": 5 },
-      { "name": "mon_cat_tabby", "amount": 4 },
-      { "name": "mon_cat_longhair", "amount": 3 },
-      { "name": "mon_cat_persian", "amount": 3 },
-      { "name": "mon_cat_siamese", "amount": 3 },
-      { "name": "mon_cat_calico", "amount": 2 },
-      { "name": "mon_cat_maine_coon", "amount": 2 },
-      { "name": "mon_cat_devon_rex", "amount": 2 },
-      { "name": "mon_cat_bengal", "amount": 1 },
-      { "name": "mon_cat_sphynx", "amount": 1 },
-      { "name": "mon_cat_chonker_kitten", "amount": 1 },
-      { "name": "mon_cat_longhair_kitten", "amount": 1 },
-      { "name": "mon_cat_calico_kitten", "amount": 1 },
-      { "name": "mon_cat_tabby_kitten", "amount": 1 }
-    ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "jeans" },
-          { "item": "longshirt" },
-          { "item": "socks" },
-          { "item": "sneakers" },
-          { "item": "knit_scarf" },
-          { "item": "pockknife" },
-          { "item": "water_clean" },
-          { "item": "wristwatch" },
-          { "item": "mbag" },
-          { "group": "charged_smart_phone" },
-          { "group": "charged_matches" },
-          { "item": "catfood_dry", "count": 10 }
-        ]
-      },
-      "male": { "entries": [ { "item": "boxer_shorts" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
     }
   },
   {
@@ -3396,30 +3049,6 @@
   },
   {
     "type": "profession",
-    "id": "fastfoodcook",
-    "name": "Fast Food Cook",
-    "description": "The diners at the fancy burger joint where you worked were even more irritable and unreasonable than usual today.  You showed them the meaning of fast food… by running for your life!",
-    "points": 1,
-    "skills": [ { "level": 3, "name": "cooking" } ],
-    "proficiencies": [ "prof_frying", "prof_knives_familiar" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "sneakers" },
-          { "item": "socks" },
-          { "item": "knife_steak" },
-          { "group": "charged_smart_phone" },
-          { "item": "tshirt", "variant": "generic_tshirt" },
-          { "item": "pants", "variant": "pants_black" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
-    },
-    "age_lower": 16
-  },
-  {
-    "type": "profession",
     "id": "electrician",
     "name": "Electrician",
     "description": "Small businesses often hired you for electrical work.  You were halfway through your latest job when the whole power grid went dead.",
@@ -3573,30 +3202,6 @@
   },
   {
     "type": "profession",
-    "id": "dancer",
-    "name": "Ballroom Dancer",
-    "description": "Things got a little weird on your way to your weekly dance class.  Zombies don't seem to know how to dance, but you're not about to let them step on your toes.",
-    "points": 0,
-    "skills": [ { "level": 3, "name": "dodge" } ],
-    "items": {
-      "both": {
-        "entries": [ { "item": "socks" }, { "item": "knit_scarf" }, { "item": "dance_shoes" }, { "group": "charged_smart_phone" } ]
-      },
-      "male": { "entries": [ { "item": "briefs" }, { "item": "tux" }, { "item": "tourmaline_silver_cufflinks" } ] },
-      "female": {
-        "entries": [
-          { "item": "bra" },
-          { "item": "panties" },
-          { "item": "dress" },
-          { "item": "purse" },
-          { "item": "tourmaline_silver_bracelet" }
-        ]
-      }
-    },
-    "age_lower": 16
-  },
-  {
-    "type": "profession",
     "id": "patient",
     "name": "Patient",
     "description": "When the diagnosis came back positive, you made a vow: to fight for your life, and to never give in to despair.  Now is the time to renew that vow.",
@@ -3658,18 +3263,6 @@
     },
     "flags": [ "SCEN_ONLY" ],
     "missions": [ "MISSION_MUTANT_VOLUNTEER" ]
-  },
-  {
-    "type": "profession",
-    "id": "hitchhiker",
-    "name": "Hitchhiker",
-    "description": "Your house has been demolished and your planet destroyed, but at least you still have your towel.",
-    "points": -1,
-    "items": {
-      "both": [ "house_coat", "slippers", "towel", "guidebook" ],
-      "male": { "entries": [ { "item": "boxer_shorts" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "boxer_shorts" } ] }
-    }
   },
   {
     "type": "profession",
@@ -3756,53 +3349,6 @@
   },
   {
     "type": "profession",
-    "id": "clown",
-    "name": { "male": "Clown", "female": "Clowness" },
-    "description": "All you ever wanted was to make people laugh.  Dropping out of school and performing at kids' parties was a dream come true until the world ended.  There are precious few balloon animals in your future now.",
-    "points": -1,
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "clown_wig" },
-          { "item": "clown_suit" },
-          { "item": "clown_nose" },
-          { "item": "socks" },
-          { "item": "clownshoes" },
-          { "item": "airhorn" },
-          { "group": "charged_smart_phone" },
-          { "item": "balloon", "count": 20 }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
-    },
-    "missions": [ "MISSION_CLOWN" ]
-  },
-  {
-    "type": "profession",
-    "id": "lost_sub",
-    "name": "Lost Submissive",
-    "description": "In the rush to safety, you were separated from your master by cruel fate.  Now you are on your own, with nothing to your name but a suit of really kinky black leather.  Unfortunately, there are no safewords in the apocalypse.",
-    "points": -1,
-    "traits": [ "MASOCHIST" ],
-    "flags": [ "NO_BONUS_ITEMS" ],
-    "proficiencies": [ "prof_fibers", "prof_fibers_rope" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "bondage_suit" },
-          { "item": "bondage_mask" },
-          { "item": "boots" },
-          { "item": "gloves_leather" },
-          { "item": "leather_belt" },
-          { "group": "charged_matches", "custom-flags": [ "auto_wield" ] }
-        ]
-      }
-    },
-    "missions": [ "MISSION_LOST_SUB" ]
-  },
-  {
-    "type": "profession",
     "id": "senior",
     "name": "Senior Citizen",
     "description": "You haven't seen this much blood since the war.  The whole world's gone crazy!  They ate your grandkids!  But dagnabbit, you'll make them all pay for what they've done.",
@@ -3830,108 +3376,6 @@
       }
     },
     "age_lower": 50
-  },
-  {
-    "type": "profession",
-    "id": "otaku",
-    "name": "Otaku",
-    "description": "After many late nights with friends watching anime and eating snacks, you decided to make the trip to the premier anime convention in the Northeast.  Now zombies are eating everyone, and even worse, the convention is cancelled!  At least you were ready in case your costume tore.",
-    "points": 0,
-    "skills": [ { "level": 2, "name": "tailor" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "shorts" },
-          { "item": "socks" },
-          { "item": "sneakers" },
-          { "item": "tank_top" },
-          { "item": "mbag" },
-          { "item": "mag_animecon" },
-          { "item": "cheeseburger" },
-          { "group": "charged_smart_phone" },
-          {
-            "item": "light_plus_battery_cell",
-            "ammo-item": "battery",
-            "charges": 150,
-            "container-item": "eink_tablet_pc"
-          },
-          {
-            "item": "light_minus_battery_cell",
-            "ammo-item": "battery",
-            "charges": 50,
-            "container-item": "game_watch"
-          }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
-    },
-    "missions": [ "MISSION_OTAKU" ]
-  },
-  {
-    "type": "profession",
-    "id": "spouse",
-    "name": { "male": "Groom", "female": "Bride" },
-    "description": "The Cataclysm struck on the big day and you escaped with nothing but your wedding attire.  Cold feet?  You'd just like to keep your feet attached!",
-    "points": -1,
-    "items": {
-      "both": { "entries": [ { "item": "ring_wedding" }, { "group": "charged_smart_phone" } ] },
-      "male": {
-        "entries": [
-          { "item": "tux" },
-          { "item": "socks" },
-          { "item": "dress_shoes" },
-          { "item": "briefs" },
-          { "item": "leather_belt" },
-          { "item": "tie_bow" },
-          { "item": "cufflinks_intricate" }
-        ]
-      },
-      "female": {
-        "entries": [
-          { "item": "veil_wedding" },
-          { "item": "dress_wedding" },
-          { "item": "stockings" },
-          { "item": "garter_belt" },
-          { "item": "dress_shoes" },
-          { "item": "bra" },
-          { "item": "panties" },
-          { "item": "purse" },
-          { "item": "long_glove_white" },
-          { "item": "pearl_silver_tiara" },
-          { "item": "pearl_silver_earring" }
-        ]
-      }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "punkrockgirl",
-    "name": { "male": "Punk Rock Dude", "female": "Punk Rock Girl" },
-    "description": "All those wicked songs about the apocalypse have come to life.  Brutal!  Now that the system is dead, it's time to party among the bones of the world!",
-    "points": 0,
-    "skills": [ { "level": 2, "name": "speech" }, { "level": 1, "name": "tailor" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "trenchcoat" },
-          { "item": "gloves_fingerless" },
-          { "item": "socks" },
-          { "item": "boots_combat" },
-          { "item": "weed" },
-          { "item": "tobacco" },
-          { "item": "rolling_paper" },
-          { "item": "wristwatch" },
-          { "group": "charged_smart_phone" },
-          { "group": "charged_mp3" },
-          { "group": "charged_ref_lighter" },
-          { "item": "onyx_silver_earring", "variant": "dark_earring" },
-          { "item": "onyx_silver_ring", "variant": "dark_ring" }
-        ]
-      },
-      "male": { "entries": [ { "item": "pants_cargo" }, { "item": "tank_top" }, { "item": "boxer_shorts" } ] },
-      "female": { "entries": [ { "item": "skirt" }, { "item": "corset" }, { "item": "boxer_shorts" }, { "item": "stockings" } ] }
-    }
   },
   {
     "type": "profession",
@@ -3964,34 +3408,6 @@
           { "item": "halligan", "container-item": "fireman_belt" }
         ]
       }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "skaboy",
-    "name": { "male": "Rude Boy", "female": "Rude Girl" },
-    "description": "Your ska band broke up after the drummer became a zombie.  Now you're alone in the Cataclysm with some cigarettes and your mp3 player.",
-    "points": 0,
-    "skills": [ { "level": 3, "name": "speech" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "dress_shirt" },
-          { "item": "tie_skinny" },
-          { "item": "sunglasses" },
-          { "item": "pants" },
-          { "item": "socks" },
-          { "item": "dress_shoes" },
-          { "item": "rolling_paper" },
-          { "item": "tobacco" },
-          { "item": "wristwatch" },
-          { "group": "charged_smart_phone" },
-          { "group": "charged_mp3" },
-          { "group": "charged_ref_lighter" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
     }
   },
   {
@@ -4225,226 +3641,6 @@
   },
   {
     "type": "profession",
-    "id": "priest",
-    "name": "Pastor",
-    "description": "Armageddon has come!  You did everything you could to protect your community, but it appears that prayers were not enough.  Now that they are all dead, you should probably find something more tangible to protect you.",
-    "points": 0,
-    "skills": [ { "level": 3, "name": "speech" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "socks" },
-          { "item": "dress_shoes" },
-          { "item": "holybook_bible1" },
-          { "group": "charged_smart_phone" },
-          { "item": "holy_symbol", "variant": "general_necklace" }
-        ]
-      },
-      "male": {
-        "entries": [ { "item": "briefs" }, { "item": "dress_shirt" }, { "item": "suit" }, { "item": "pants", "variant": "pants_black" } ]
-      },
-      "female": { "entries": [ { "item": "dress" }, { "item": "purse" }, { "item": "bra" }, { "item": "panties" } ] }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "c_priest",
-    "name": { "male": "Catholic Priest", "female": "Nun" },
-    "description": "For your entire time as a servant of God, you helped, protected and listened to your parish faithful.  But the Rapture has come, and your parish turned against you.  Now all you can do is pray to the Holy Virgin, and prepare to maintain your wellbeing.",
-    "points": 0,
-    "skills": [ { "level": 3, "name": "speech" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "socks" },
-          { "item": "dress_shoes" },
-          { "item": "holybook_bible4" },
-          { "group": "charged_smart_phone" },
-          { "item": "holy_symbol", "variant": "catholic_necklace" }
-        ]
-      },
-      "male": {
-        "entries": [
-          { "item": "pants" },
-          { "item": "longshirt" },
-          { "item": "cassock" },
-          { "item": "cape_catholic" },
-          { "item": "zucchetto" },
-          { "item": "briefs" }
-        ]
-      },
-      "female": {
-        "entries": [
-          { "item": "nun_wimple" },
-          { "item": "nun_habit" },
-          { "item": "dress_shirt" },
-          { "item": "purse" },
-          { "item": "bra" },
-          { "item": "panties" }
-        ]
-      }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "shinto_priest",
-    "name": "Kannushi",
-    "description": "You were one of the maintainers of a Shinto shrine, performing rituals and sacred tasks.  You preferred it when only the spirits of the dead inhabited your shrine, and not their rotting corpses.",
-    "points": 0,
-    "skills": [ { "level": 3, "name": "fabrication" }, { "level": 3, "name": "tailor" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "kariginu" },
-          { "item": "eboshi" },
-          { "item": "hakama" },
-          { "item": "tabi_dress" },
-          { "item": "geta" },
-          { "item": "holybook_kojiki" },
-          { "group": "charged_smart_phone" },
-          { "item": "holy_symbol", "variant": "shinto_necklace" },
-          { "item": "pants", "variant": "pants_white" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "bhikkhu",
-    "name": { "male": "Bhikkhu", "female": "Bhikkhuni" },
-    "description": "Your life was simple at the Vihara, doing household chores and meditating.  Your Sangha wanted to attain liberation from suffering, now their rotting corpses will suffer forever.",
-    "points": 0,
-    "skills": [ { "level": 3, "name": "speech" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "antarvasa" },
-          { "item": "uttarasanga" },
-          { "item": "samghati" },
-          { "item": "flip_flops" },
-          { "item": "holybook_sutras" },
-          { "group": "charged_smart_phone" },
-          { "item": "holy_symbol", "variant": "buddhist_necklace" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "imam",
-    "name": { "male": "Imam", "female": "Mourchida" },
-    "description": "You spent much of your time prior to the apocalypse at the local mosque, studying the words of the Prophet and the Quran and guiding your community in prayer.  Back then they came from far and wide to listen to you; now they come to eat your brains.",
-    "points": 0,
-    "//": "No knife, fire, or decent storage/armor.  Skill points are countered.",
-    "skills": [ { "level": 3, "name": "speech" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "socks" },
-          { "item": "kufi" },
-          { "item": "thawb" },
-          { "item": "lowtops" },
-          { "item": "holybook_quran" },
-          { "group": "charged_smart_phone" },
-          { "item": "tshirt", "variant": "generic_tshirt" },
-          { "item": "holy_symbol", "variant": "muslim_necklace" },
-          { "item": "pants", "variant": "pants_white" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "rabbi",
-    "name": "Rabbi",
-    "description": "You were davening Shacharit in shul when the Cataclysm struck.  You had always taught that God will restore life to the dead after Moshiach has come, but not like this!",
-    "points": 0,
-    "skills": [ { "level": 3, "name": "speech" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "leather_belt" },
-          { "item": "dress_shirt" },
-          { "item": "socks" },
-          { "item": "kittel" },
-          { "item": "kippah" },
-          { "item": "tallit_gadol" },
-          { "item": "dress_shoes" },
-          { "item": "holybook_talmud" },
-          { "group": "charged_smart_phone" },
-          { "item": "holy_symbol", "variant": "jewish_necklace1" },
-          { "item": "pants", "variant": "pants_black" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "guru",
-    "name": "Guru",
-    "description": "You spent many years traveling through the world, becoming wise and learned.  Normally you can answer any question, but even you are not quite sure what to do about the ravenous undead.",
-    "points": 1,
-    "skills": [ { "level": 5, "name": "speech" }, { "level": 3, "name": "survival" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "jeans" },
-          { "item": "socks" },
-          { "item": "robe" },
-          { "item": "turban" },
-          { "item": "waterskin" },
-          { "item": "pockknife" },
-          { "item": "mbag" },
-          { "item": "leathersandals" },
-          { "item": "holy_symbol" },
-          { "item": "wristwatch" },
-          { "group": "charged_smart_phone" },
-          { "item": "tshirt", "variant": "generic_tshirt" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "preacher",
-    "name": "Traveling Preacher",
-    "description": "You devoted your life to spreading the good word, always on the road, traveling from town to town.  Now everything has gone to hell, you can't host your daily podcast, and the undead don't seem particularly moved by your sermons.",
-    "points": 1,
-    "skills": [ { "level": 4, "name": "speech" }, { "level": 4, "name": "driving" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "dress_shirt" },
-          { "item": "socks" },
-          { "item": "dress_shoes" },
-          { "item": "wristwatch" },
-          { "item": "backpack" },
-          { "item": "flyer" },
-          { "item": "flyer" },
-          { "item": "flyer" },
-          { "item": "holy_symbol" },
-          { "group": "charged_smart_phone" },
-          { "group": "charged_laptop" },
-          { "item": "holy_symbol", "variant": "general_necklace" },
-          { "item": "pants", "variant": "pants_black" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
-    }
-  },
-  {
-    "type": "profession",
     "id": "blackbelt_novice",
     "name": "Novice Martial Artist",
     "description": "You've decided today is the day to take your first lesson at the local dojo.  You'll be great at it, you're sure of it.",
@@ -4547,34 +3743,6 @@
   },
   {
     "type": "profession",
-    "id": "pizzaboy",
-    "name": { "male": "Pizza Delivery Boy", "female": "Pizza Delivery Girl" },
-    "description": "You were delivering the last pizza of the night to the local cryogenics lab when hungry zombies attempted to make a meal out of you.  Fleeing for safety, you find yourself with only your wits and some leftover pizza.  And they didn't even leave a tip!",
-    "points": 0,
-    "skills": [ { "level": 3, "name": "driving" }, { "level": 1, "name": "speech" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "hat_ball" },
-          { "item": "jeans" },
-          { "item": "jacket_light" },
-          { "item": "socks" },
-          { "item": "sneakers" },
-          { "item": "pizza_veggy" },
-          { "item": "pizza_meat" },
-          { "item": "money_strap_one" },
-          { "item": "wristwatch" },
-          { "item": "mbag" },
-          { "group": "charged_smart_phone" },
-          { "item": "tshirt", "variant": "generic_tshirt" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "boy_shorts" } ] }
-    }
-  },
-  {
-    "type": "profession",
     "id": "archaeologist",
     "name": "Archaeologist",
     "description": "Following a clue from your dead grandfather's journal, you made your way to a long-lost temple, but then the ground started to shake uncontrollably.  You had a bad feeling about that, so you got out of there quickly.",
@@ -4608,37 +3776,6 @@
       },
       "male": { "entries": [ { "item": "briefs" } ] },
       "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "paperboy",
-    "name": { "male": "Paperboy", "female": "Papergirl" },
-    "description": "You set out this morning to deliver the news of the apocalypse.  The undead hordes don't seem to value the latest news, but at least your trusty bicycle is still in working order.",
-    "points": 2,
-    "skills": [ { "level": 4, "name": "driving" }, { "level": 3, "name": "throw" }, { "level": 1, "name": "speech" } ],
-    "proficiencies": [ "prof_athlete_basic", "prof_driver" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "hat_newsboy" },
-          { "item": "sweatshirt" },
-          { "item": "peacoat" },
-          { "item": "socks" },
-          { "item": "boots_winter" },
-          { "item": "gloves_wool" },
-          { "item": "knit_scarf" },
-          { "item": "mbag" },
-          { "item": "dog_whistle" },
-          { "item": "wristwatch" },
-          { "item": "newest_newspaper", "count": [ 5, 10 ] },
-          { "item": "folded_bicycle" },
-          { "group": "charged_smart_phone" },
-          { "item": "pants", "variant": "pants_blue" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "boy_shorts" } ] }
     }
   },
   {
@@ -4950,164 +4087,6 @@
   },
   {
     "type": "profession",
-    "id": "reenactor",
-    "name": { "male": "Historical Reenactor", "female": "Ahistorical Reenactor" },
-    "description": {
-      "male": "You were on your way to the Annual All New England Revolutionary War Living History exhibition when the end of the world permanently derailed your plans.",
-      "female": "You were on your way to the Annual All New England Revolutionary War Living History exhibition when the end of the world made traditional gender roles obsolete."
-    },
-    "points": 2,
-    "proficiencies": [ "prof_gunsmithing_basic", "prof_metalworking", "prof_gunsmithing_antique", "prof_gun_cleaning" ],
-    "skills": [
-      { "level": 3, "name": "gun" },
-      { "level": 3, "name": "rifle" },
-      { "level": 3, "name": "mechanics" },
-      { "level": 2, "name": "tailor" },
-      { "level": 2, "name": "cooking" }
-    ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "stockings" },
-          { "item": "pockknife" },
-          { "item": "pipe_tobacco" },
-          { "item": "tobacco" },
-          { "item": "backpack" },
-          { "item": "knee_high_boots" },
-          { "item": "breeches" },
-          { "item": "waistcoat" },
-          { "item": "peacoat" },
-          { "item": "leather_belt" },
-          { "item": "knit_scarf" },
-          { "item": "tricorne" },
-          { "item": "hatchet" },
-          { "item": "hardtack" },
-          { "item": "pipe_cleaner" },
-          {
-            "item": "rifle_flintlock",
-            "ammo-item": "flintlock_ammo",
-            "charges": 1,
-            "contents-item": "shoulder_strap_simple"
-          },
-          { "item": "flintlock_pouch", "contents-group": "flintlock_pouch_reenactor" },
-          { "item": "flintlock_ammo", "charges": 15 },
-          { "item": "vinegar", "container-item": "bottle_plastic_small" },
-          { "item": "lamp_oil", "container-item": "bottle_plastic_small" },
-          { "group": "charged_smart_phone" },
-          { "group": "charged_matches" }
-        ]
-      }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "reenactor2",
-    "name": { "male": "Ahistorical Reenactor", "female": "Historical Reenactor" },
-    "description": {
-      "male": "You were on your way to the Annual All New England Revolutionary War Living History exhibition when the end of the world made traditional gender roles obsolete.",
-      "female": "You were on your way to the Annual All New England Revolutionary War Living History exhibition when the end of the world permanently derailed your plans."
-    },
-    "points": 2,
-    "proficiencies": [ "prof_spinning", "prof_closures", "prof_knitting", "prof_gun_cleaning" ],
-    "skills": [
-      { "level": 4, "name": "tailor" },
-      { "level": 4, "name": "cooking" },
-      { "level": 2, "name": "gun" },
-      { "level": 2, "name": "rifle" }
-    ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "stockings" },
-          { "item": "pockknife" },
-          { "item": "pipe_tobacco" },
-          { "item": "tobacco" },
-          { "item": "backpack" },
-          { "item": "dress" },
-          { "item": "apron_leather" },
-          { "item": "boots" },
-          { "item": "gloves_leather" },
-          { "item": "long_knit_scarf" },
-          { "item": "hat_fur" },
-          { "item": "purse" },
-          { "item": "pot" },
-          { "item": "cornmeal" },
-          { "item": "salt" },
-          { "item": "needle_wood", "ammo-item": "thread", "charges": 200 },
-          { "item": "oil_lamp", "charges": 750 },
-          { "group": "charged_smart_phone" },
-          { "group": "charged_matches" }
-        ]
-      }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "skaterkid",
-    "name": { "male": "Skater Boy (Rollerblades)", "female": "Skater Girl (Rollerblades)" },
-    "description": "You love to skate!  You've probably spent more time on a pair of blades than off.  Things have gotten pretty bad, but at least the grown-ups aren't telling you where you can't roll.",
-    "points": 1,
-    "skills": [ { "level": 4, "name": "dodge" }, { "level": 3, "name": "driving" }, { "level": 2, "name": "swimming" } ],
-    "traits": [ "PROF_SKATER" ],
-    "proficiencies": [ "prof_athlete_basic" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "hoodie" },
-          { "item": "jeans" },
-          { "item": "socks" },
-          { "item": "elbow_pads" },
-          { "item": "knee_pads" },
-          { "item": "gloves_fingerless" },
-          { "item": "helmet_skid" },
-          { "item": "roller_blades" },
-          { "item": "wristwatch" },
-          { "item": "sports_drink" },
-          { "group": "charged_smart_phone" },
-          { "item": "tshirt", "variant": "generic_tshirt" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "boy_shorts" } ] }
-    },
-    "age_lower": 16,
-    "age_upper": 21
-  },
-  {
-    "type": "profession",
-    "id": "skaterkid_board",
-    "name": { "male": "Skater Boy (Skateboard)", "female": "Skater Girl (Skateboard)" },
-    "description": "You love to skate!  You've probably spent more time on a skateboard than off.  Things have gotten pretty bad, but at least the grown-ups aren't telling you where you can't roll.",
-    "points": 1,
-    "proficiencies": [ "prof_driver", "prof_athlete_basic" ],
-    "skills": [ { "level": 4, "name": "dodge" }, { "level": 3, "name": "driving" }, { "level": 2, "name": "swimming" } ],
-    "traits": [ "PROF_SKATER" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "hoodie" },
-          { "item": "jeans" },
-          { "item": "socks" },
-          { "item": "elbow_pads" },
-          { "item": "knee_pads" },
-          { "item": "gloves_fingerless" },
-          { "item": "helmet_skid" },
-          { "item": "sneakers" },
-          { "item": "folded_skateboard_generic" },
-          { "item": "wristwatch" },
-          { "item": "sports_drink" },
-          { "group": "charged_smart_phone" },
-          { "item": "tshirt", "variant": "generic_tshirt" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "boy_shorts" } ] }
-    },
-    "age_lower": 16,
-    "age_upper": 21
-  },
-  {
-    "type": "profession",
     "id": "jdelinquent",
     "name": "Juvenile Delinquent",
     "description": "You never cared for grown-ups telling you what to do, so you ended up spending quite a few days in the principal's office.  Now, not needing grown-ups to tell you what to do is the only reason you're alive.  Man, you really should've played hooky today.",
@@ -5179,33 +4158,6 @@
           { "group": "charged_cell_phone" },
           { "group": "full_1st_aid" },
           { "group": "charged_flashlight" },
-          { "item": "tshirt", "variant": "generic_tshirt" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "boy_shorts" } ] }
-    },
-    "age_lower": 16,
-    "age_upper": 18
-  },
-  {
-    "type": "profession",
-    "id": "dodgeball_player",
-    "name": "Dodgeball Player",
-    "description": "In dodgeball, failing to dodge meant taking a ball to the head and being out of the game.  In the Cataclysm, it means getting eaten by monsters.  Don't slip up.",
-    "points": 2,
-    "skills": [ { "level": 5, "name": "dodge" }, { "level": 4, "name": "throw" }, { "level": 3, "name": "swimming" } ],
-    "proficiencies": [ "prof_athlete_basic" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "jacket_light" },
-          { "item": "jeans" },
-          { "item": "socks_ankle" },
-          { "item": "lowtops" },
-          { "item": "slingpack" },
-          { "item": "juice" },
-          { "group": "charged_smart_phone" },
           { "item": "tshirt", "variant": "generic_tshirt" }
         ]
       },
@@ -5510,64 +4462,6 @@
   },
   {
     "type": "profession",
-    "id": "urban_samurai",
-    "name": "Urban Samurai",
-    "description": "You were always an inexplicable sight in town, with your funny hair and odd Japanese clothes.  Some claimed you were a visiting Shinto god.  Little of this concerned you, but last week the grocery service stopped coming and now the TV no longer turns on.  This displeases you.",
-    "points": 0,
-    "skills": [ { "level": 1, "name": "melee" }, { "level": 1, "name": "cutting" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "haori" },
-          { "item": "kimono" },
-          { "item": "hakama" },
-          { "item": "loincloth" },
-          { "item": "tabi_dress" },
-          { "item": "geta" },
-          { "item": "bellywrap" },
-          { "group": "charged_smart_phone" },
-          { "item": "bokken_inferior", "container-item": "scabbard" }
-        ]
-      },
-      "female": { "entries": [ { "item": "chestwrap" } ] }
-    },
-    "missions": [ "MISSION_URBAN_SAMURAI" ]
-  },
-  {
-    "type": "profession",
-    "id": "fencer",
-    "name": "Competitive Fencer",
-    "description": "Years of training prepared you for the competitive fencing circuit, but your latest tournament was cut short when zombies invaded the piste.  The referee was eaten, so you're not sure if the rules are still in play.",
-    "points": 5,
-    "skills": [
-      { "level": 6, "name": "melee" },
-      { "level": 6, "name": "stabbing" },
-      { "level": 6, "name": "dodge" },
-      { "level": 4, "name": "swimming" }
-    ],
-    "proficiencies": [ "prof_fencing_weapons_familiar", "prof_fencing_weapons_pro" ],
-    "starting_styles": [ "style_fencing" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "fencing_pants" },
-          { "item": "fencing_jacket" },
-          { "item": "gauntlet_fencing" },
-          { "item": "plastron_cotton" },
-          { "item": "under_armor_shorts" },
-          { "item": "socks" },
-          { "item": "sneakers" },
-          { "item": "fencing_epee" },
-          { "item": "duffelbag" },
-          { "item": "fencing_mask", "custom-flags": [ "no_auto_equip" ] },
-          { "group": "charged_smart_phone" }
-        ]
-      },
-      "female": { "entries": [ { "item": "plastron_plastic" } ] }
-    }
-  },
-  {
-    "type": "profession",
     "id": "politician",
     "name": "Career Politician",
     "description": "You've spent your life appealing to the people, persuading many and promising much throughout your time in office.  Now that your voting base wants to eat you alive, winning hearts and minds just got that much harder.",
@@ -5630,40 +4524,6 @@
   },
   {
     "type": "profession",
-    "id": "roadie",
-    "name": "Roadie",
-    "description": "You've always worked just outside of the limelight, carrying and fixing the equipment and ensuring that the performers got what they needed.  The show must go on.",
-    "points": 2,
-    "skills": [
-      { "level": 3, "name": "fabrication" },
-      { "level": 3, "name": "mechanics" },
-      { "level": 3, "name": "electronics" },
-      { "level": 3, "name": "driving" }
-    ],
-    "proficiencies": [ "prof_appliance_repair" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "jacket_jean" },
-          { "item": "tshirt_tour" },
-          { "item": "jeans" },
-          { "item": "socks" },
-          { "item": "boots_steel" },
-          { "item": "multitool" },
-          { "item": "wristwatch" },
-          { "item": "gloves_work" },
-          { "item": "mbag" },
-          { "group": "charged_smart_phone" },
-          { "group": "charged_matches" },
-          { "group": "charged_soldering_iron" }
-        ]
-      },
-      "male": { "entries": [ { "item": "boxer_shorts" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "boy_shorts" } ] }
-    }
-  },
-  {
-    "type": "profession",
     "id": "musician",
     "name": "Musician",
     "description": "You nailed your solo, but the audience erupted into screams instead of applause.  You weren't able to grab much during the panic, but at least you have your loaded six string on your back.",
@@ -5716,99 +4576,6 @@
       "male": { "entries": [ { "item": "boxer_shorts" } ] },
       "female": { "entries": [ { "item": "panties" }, { "item": "bra" } ] }
     }
-  },
-  {
-    "type": "profession",
-    "id": "gunslinger",
-    "name": "Wild West Gunslinger",
-    "description": "You made your living on Wild West exhibitions and shows, impressing tourists with your displays of marksmanship.  But that world has ended, so you took your trusty six-shooter and wandered into a world where it's always high noon.",
-    "points": 4,
-    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning" ],
-    "skills": [
-      { "level": 4, "name": "gun" },
-      { "level": 4, "name": "pistol" },
-      { "level": 3, "name": "rifle" },
-      { "level": 3, "name": "shotgun" },
-      { "level": 2, "name": "survival" }
-    ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "under_armor" },
-          { "item": "under_armor_shorts" },
-          { "item": "cowboy_hat" },
-          { "item": "socks" },
-          { "item": "jeans" },
-          { "item": "chaps_leather" },
-          { "item": "gloves_leather" },
-          { "item": "boots_western" },
-          { "item": "duster" },
-          { "item": "badge_deputy" },
-          { "item": "novel_western" },
-          { "group": "charged_smart_phone" },
-          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
-          { "item": "whiskey", "container-item": "bottle_glass" },
-          {
-            "item": "colt_saa",
-            "ammo-item": "45colt_jhp",
-            "charges": 6,
-            "container-item": "western_holster",
-            "contents-group": "bandolier_ww_gunslinger"
-          },
-          { "item": "sheriffshirt", "variant": "sheriff" }
-        ]
-      }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "frat",
-    "name": { "male": "Frat Boy", "female": "Sorority Girl" },
-    "description": "You were living the high life, spending your parents' money without a care in the world.  At one of your usual crazy parties, the guests became hungry for more than drugs and booze, but you still have a chance to use the last symbol of your luxurious life - your sports car - and get far away.",
-    "points": 2,
-    "proficiencies": [ "prof_driver" ],
-    "skills": [ { "level": 3, "name": "driving" }, { "level": 2, "name": "speech" } ],
-    "vehicle": "car_sports",
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "gold_watch" },
-          { "item": "fancy_sunglasses" },
-          { "item": "water_mineral" },
-          { "item": "money_strap_twenty" },
-          { "item": "cig" },
-          { "item": "mag_porn" },
-          { "group": "charged_ref_lighter" },
-          { "group": "charged_smart_phone" }
-        ]
-      },
-      "male": {
-        "entries": [
-          { "item": "boxer_shorts" },
-          { "item": "pants", "variant": "pants_black" },
-          { "item": "dress_shoes" },
-          { "item": "polo_shirt" },
-          { "item": "socks" },
-          { "item": "mag_dude" }
-        ]
-      },
-      "female": {
-        "entries": [
-          { "item": "polo_shirt" },
-          { "item": "bra" },
-          { "item": "panties" },
-          { "item": "skirt" },
-          { "item": "heels" },
-          { "item": "stockings" },
-          { "item": "purse" },
-          { "item": "mag_glam" },
-          { "item": "bracelet_friendship" },
-          { "item": "opal_gold_ring" },
-          { "item": "opal_gold_earring" }
-        ]
-      }
-    },
-    "age_upper": 25
   },
   {
     "type": "profession",
@@ -6438,31 +5205,6 @@
   },
   {
     "type": "profession",
-    "id": "super_biker",
-    "name": { "male": "Speed King", "female": "Speed Queen" },
-    "description": "You used to rule the roads before they were filled with wrecks, undead, and unspeakable horrors.  At least there's no speed limits in the apocalypse!",
-    "points": 4,
-    "proficiencies": [ "prof_driver" ],
-    "skills": [ { "level": 8, "name": "driving" } ],
-    "vehicle": "superbike",
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "helmet_motor" },
-          { "item": "touring_suit" },
-          { "item": "under_armor" },
-          { "item": "under_armor_shorts" },
-          { "item": "socks" },
-          { "item": "motorbike_boots" },
-          { "item": "gloves_leather" },
-          { "item": "wristwatch" },
-          { "group": "charged_smart_phone" }
-        ]
-      }
-    }
-  },
-  {
-    "type": "profession",
     "id": "hazmat_unit",
     "name": "Hazmat Unit",
     "description": "You were deployed to autopsy one of the rioters showing feral behavior before being put down.  When they got back up, you knew this was out of your pay grade.",
@@ -6608,30 +5350,6 @@
   },
   {
     "type": "profession",
-    "id": "birder",
-    "name": "Bird Watcher",
-    "description": "You were at your favorite park looking at the robins when the Cataclysm struck.  Now all you have are your binoculars and a lot of trivia about local birds to share with any survivors you may find.",
-    "points": 1,
-    "skills": [ { "level": 3, "name": "survival" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "jeans" },
-          { "item": "longshirt" },
-          { "item": "socks" },
-          { "item": "sneakers" },
-          { "item": "mbag" },
-          { "item": "wristwatch" },
-          { "group": "charged_smart_phone" },
-          { "item": "binoculars" }
-        ]
-      },
-      "male": { "entries": [ { "item": "boxer_shorts" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
-    }
-  },
-  {
-    "type": "profession",
     "id": "portal_traveler",
     "name": "Portal Traveler",
     "description": "You were abducted from your home, taken hostage, and used as a test subject in a lab.  For the last test, you were dressed in strange clothes and put in a room where you started to feel… different.  You lost consciousness and woke up somewhere unfamiliar.",
@@ -6695,29 +5413,6 @@
     },
     "traits": [ "LIGHTSTEP" ],
     "missions": [ "MISSION_NINJA" ]
-  },
-  {
-    "type": "profession",
-    "id": "cheerleader",
-    "name": "Cheerleader",
-    "description": "Your last cheerleader routine ended abruptly after your partners switched sides to the undead team.  Let's hope your quick reflexes and flexibility help you to find new members for the squad.",
-    "points": 1,
-    "skills": [ { "level": 3, "name": "dodge" }, { "level": 3, "name": "swimming" }, { "level": 3, "name": "speech" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "pom_poms" },
-          { "item": "socks_ankle" },
-          { "item": "sneakers" },
-          { "item": "tank_top", "variant": "tank_top_cheerleader" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" }, { "item": "shorts" } ] },
-      "female": { "entries": [ { "item": "sports_bra" }, { "item": "panties" }, { "item": "cheerleader_skirt" } ] }
-    },
-    "missions": [ "MISSION_SOCIAL_BUTTERFLY" ],
-    "age_lower": 16,
-    "age_upper": 23
   },
   {
     "type": "profession",
@@ -6876,38 +5571,6 @@
       "female": { "entries": [ { "item": "flag_swimsuit", "variant": "generic_swimsuit" } ] }
     },
     "proficiencies": [ "prof_athlete_basic" ]
-  },
-  {
-    "type": "profession",
-    "id": "surfer",
-    "name": "Surfer",
-    "description": "You went to ride the waves, but the waves ended up riding you instead when a putrid hand appeared from underwater and grabbed you by the ankle.  You had to ditch your surfboard in favor of a kickboard, and now you'll fight every day to stay ahead of the wave of the undead.",
-    "points": 1,
-    "flags": [ "NO_BONUS_ITEMS" ],
-    "skills": [ { "level": 4, "name": "dodge" }, { "level": 4, "name": "swimming" } ],
-    "traits": [ "OUTDOORSMAN" ],
-    "items": {
-      "both": { "entries": [ { "item": "swimming_kickboard" } ] },
-      "male": { "entries": [ { "item": "wetsuit_top" }, { "item": "wetsuit_shorts" } ] },
-      "female": { "entries": [ { "item": "wetsuit_spring_sleeveless" } ] }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "lifeguard",
-    "name": "Lifeguard",
-    "description": "Your job was to safeguard the lives of everyone at the beach, but when the swimmers started drowning each other, you knew the situation was out of your hands.",
-    "points": 2,
-    "skills": [ { "level": 4, "name": "firstaid" }, { "level": 4, "name": "swimming" } ],
-    "traits": [ "OUTDOORSMAN" ],
-    "proficiencies": [ "prof_wound_care" ],
-    "items": {
-      "both": { "entries": [ { "item": "whistle" }, { "item": "sunglasses" }, { "item": "diving_watch" } ] },
-      "male": {
-        "entries": [ { "item": "trunks" }, { "item": "swim_briefs" }, { "item": "rashguard", "variant": "lifeguard_rashguard_shirt" } ]
-      },
-      "female": { "entries": [ { "item": "flag_swimsuit", "variant": "lifeguard_swimsuit" } ] }
-    }
   },
   {
     "type": "profession",
@@ -7178,37 +5841,6 @@
       "female": { "entries": [ { "item": "boy_shorts" }, { "item": "sports_bra" } ] }
     },
     "age_lower": 16
-  },
-  {
-    "type": "profession",
-    "id": "officeworker",
-    "name": "Office Worker",
-    "description": "You felt years of your life being sapped away, slaving at your computer as you subsisted on a daily pot of coffee, microwave burritos and an endless supply of crumpled paper to toss.  Perhaps the Cataclysm is a refreshing change of pace…",
-    "points": 0,
-    "skills": [
-      { "level": 2, "name": "computer" },
-      { "level": 2, "name": "cooking" },
-      { "level": 2, "name": "throw" },
-      { "level": 2, "name": "speech" }
-    ],
-    "addictions": [ { "intensity": 10, "type": "caffeine" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "dress_shirt" },
-          { "item": "undershirt" },
-          { "item": "socks" },
-          { "item": "tie_clipon" },
-          { "item": "dress_shoes" },
-          { "group": "charged_smart_phone" },
-          { "group": "charged_penblack" },
-          { "item": "pants", "variant": "pants_black" },
-          { "item": "coffee", "container-item": "coffeepot" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "panties" }, { "item": "bra" } ] }
-    }
   },
   {
     "type": "profession",
