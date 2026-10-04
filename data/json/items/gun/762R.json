@@ -99,7 +99,6 @@
     "id": "psl",
     "copy-from": "gun_base_rifle_semi",
     "looks_like": "modular_ar15",
-    "//": "Mom can we have a McDragunov? Mom: we have McDragunov at home. The McDragunov at home:",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "name": { "str": "PSL rifle" },
@@ -108,8 +107,8 @@
     "variants": [
       {
         "id": "psl",
-        "name": { "str": "Century Arms PSL 54" },
-        "description": "The PSL is a semi-automatic rifle chambered in 7.62x54mmR, created by Romania due to uneasy tensions arising between the USSR and Romania, which put pressure on Romania to manufacture their own firearms.  While it looks much like a Soviet SVD, mechanically it's akin to a scaled up AK-47.  This one has been imported from Romania by Century Arms."
+        "name": { "str": "PSL 54" },
+        "description": "The PSL is a semi-automatic rifle chambered in 7.62x54mmR, created by Romania due to uneasy tensions arising between the USSR and Romania, which put pressure on Romania to manufacture their own firearms.  While it looks much like a Soviet SVD, mechanically it's akin to a scaled up AK-47."
       }
     ],
     "weight": "4100 g",
