@@ -112,38 +112,6 @@
     "origins": [ "ORIGIN_GAME_START" ]
   },
   {
-    "id": "MISSION_CLOWN",
-    "type": "mission_definition",
-    "name": { "str": "Prepare for your next show" },
-    "description": "Become the best clown, make sure that your next show will make everyone laugh by training your social skills to perfection.",
-    "goal": "MGOAL_CONDITION",
-    "goal_condition": { "math": [ "u_skill('speech') >= 6" ] },
-    "difficulty": 3,
-    "value": 0,
-    "end": {
-      "effect": [
-        { "u_add_morale": "morale_feeling_good", "bonus": 20, "max_bonus": 50, "duration": "4 hours", "decay_start": "2 hours" }
-      ]
-    },
-    "origins": [ "ORIGIN_GAME_START" ]
-  },
-  {
-    "id": "MISSION_LOST_SUB",
-    "type": "mission_definition",
-    "name": { "str": "Find a memory of your master" },
-    "description": "Find and wield a whip to remember your master even when separated.",
-    "goal": "MGOAL_CONDITION",
-    "goal_condition": { "u_has_wielded_with_flag": "WHIP" },
-    "difficulty": 3,
-    "value": 0,
-    "end": {
-      "effect": [
-        { "u_add_morale": "morale_feeling_good", "bonus": 20, "max_bonus": 50, "duration": "6 hours", "decay_start": "3 hours" }
-      ]
-    },
-    "origins": [ "ORIGIN_GAME_START" ]
-  },
-  {
     "id": "MISSION_BLACK_BELT_GOAL",
     "type": "mission_definition",
     "name": { "str": "Obtain your black belt" },

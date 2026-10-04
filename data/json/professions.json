@@ -411,12 +411,6 @@
   {
     "type": "item_group",
     "subtype": "collection",
-    "id": "flintlock_pouch_reenactor",
-    "entries": [ { "item": "flintlock_ammo", "charges": 14 } ]
-  },
-  {
-    "type": "item_group",
-    "subtype": "collection",
     "id": "bandolier_ww_gunslinger",
     "entries": [ { "item": "45colt_jhp", "charges": 18 } ]
   },
@@ -1165,138 +1159,6 @@
   },
   {
     "type": "profession",
-    "id": "baseball_player",
-    "name": "Baseball Player",
-    "description": "You played with the local team.  You're the only one left, but now you can use your trusty bat for another purpose.  Home run!",
-    "npc_background": "BG_survival_story_SPORTS",
-    "points": 2,
-    "skills": [
-      { "level": 4, "name": "melee" },
-      { "level": 4, "name": "bashing" },
-      { "level": 4, "name": "throw" },
-      { "level": 4, "name": "swimming" }
-    ],
-    "proficiencies": [ "prof_athlete_basic", "prof_maces_familiar", "prof_maces_pro" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "baseball" },
-          { "item": "jacket_light" },
-          { "item": "jeans" },
-          { "item": "socks" },
-          { "item": "cleats" },
-          { "item": "helmet_ball" },
-          { "item": "sports_drink" },
-          { "item": "gum" },
-          { "group": "charged_smart_phone" },
-          { "group": "starter_wallet_full" },
-          { "item": "bat", "custom-flags": [ "auto_wield" ] },
-          { "item": "tshirt", "variant": "generic_tshirt" }
-        ]
-      },
-      "male": { "entries": [ { "item": "boxer_shorts" } ] },
-      "female": { "entries": [ { "item": "sports_bra" }, { "item": "panties" } ] }
-    },
-    "age_lower": 16
-  },
-  {
-    "type": "profession",
-    "id": "basketball_player",
-    "name": "Basketball Player",
-    "description": "Your first major game was abruptly canceled when zombies stormed the court.  Quick feet and good reflexes meant you were among the lucky few to escape the stadium alive.",
-    "npc_background": "BG_survival_story_SPORTS",
-    "points": 2,
-    "skills": [ { "level": 5, "name": "dodge" }, { "level": 5, "name": "throw" }, { "level": 4, "name": "swimming" } ],
-    "proficiencies": [ "prof_athlete_basic" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "tank_top" },
-          { "item": "b_shorts" },
-          { "item": "socks_ankle" },
-          { "item": "sneakers" },
-          { "item": "basketball" },
-          { "item": "sports_drink" },
-          { "item": "runner_bag" },
-          { "item": "jersey", "variant": "sportsteam" },
-          { "group": "charged_smart_phone" },
-          { "group": "starter_wallet_full" }
-        ]
-      },
-      "male": { "entries": [ { "item": "boxer_shorts" } ] },
-      "female": { "entries": [ { "item": "sports_bra" }, { "item": "panties" } ] }
-    },
-    "age_lower": 16
-  },
-  {
-    "type": "profession",
-    "id": "football_player",
-    "name": "Football Player",
-    "description": "Your epic touchdown was ruined when your coach's guts were torn out by undead fans.  Now you're first pick in the apocalypse draft.",
-    "npc_background": "BG_survival_story_SPORTS",
-    "points": 3,
-    "skills": [
-      { "level": 5, "name": "throw" },
-      { "level": 4, "name": "melee" },
-      { "level": 4, "name": "unarmed" },
-      { "level": 4, "name": "dodge" },
-      { "level": 4, "name": "swimming" }
-    ],
-    "proficiencies": [ "prof_athlete_basic", "prof_unarmed_familiar" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "helmet_football" },
-          { "item": "football_armor" },
-          { "item": "mouthpiece" },
-          { "item": "socks_ankle" },
-          { "item": "cleats" },
-          { "item": "football", "custom-flags": [ "auto_wield" ] },
-          { "item": "knee_pads" },
-          { "item": "sports_drink" },
-          { "item": "jersey", "variant": "sportsteam" },
-          { "group": "charged_smart_phone" },
-          { "group": "starter_wallet_full" },
-          { "item": "pants", "variant": "pants_blue" }
-        ]
-      },
-      "male": { "entries": [ { "item": "under_armor_shorts" } ] },
-      "female": { "entries": [ { "item": "sports_bra" }, { "item": "panties" } ] }
-    },
-    "age_lower": 16
-  },
-  {
-    "type": "profession",
-    "id": "cyclist",
-    "name": "Professional Cyclist",
-    "description": "You were a promising cyclist with a bright career in front of you before this all happened.  Perhaps you'll never get to participate in the grand tours now, but as the saying goes, life is like riding a bicycle: you've got to keep moving.",
-    "npc_background": "BG_survival_story_SPORTS",
-    "points": 4,
-    "proficiencies": [ "prof_athlete_basic", "prof_athlete_expert", "prof_driver" ],
-    "skills": [ { "level": 5, "name": "driving" }, { "level": 4, "name": "dodge" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "helmet_bike" },
-          { "item": "folded_bicycle" },
-          { "item": "under_armor_shorts" },
-          { "item": "under_armor" },
-          { "item": "socks_ankle" },
-          { "item": "sneakers" },
-          { "item": "sports_drink" },
-          { "item": "wristwatch" },
-          { "item": "fanny" },
-          { "item": "sunglasses" },
-          { "group": "charged_smart_phone" },
-          { "group": "starter_wallet_full" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "panties" }, { "item": "sports_bra" } ] }
-    }
-  },
-  {
-    "type": "profession",
     "id": "major-general",
     "name": "Major General",
     "requirement": "achievement_reach_military_bunker",
@@ -2018,49 +1880,6 @@
       },
       "male": { "entries": [ { "item": "boxer_shorts" } ] },
       "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "maid",
-    "name": { "male": "Butler", "female": "Maid" },
-    "description": "You were hired to take care of the housekeeping for a wealthy family.  Naturally, when things got bad, they all took off on a family vacation to somewhere unknown, leaving you to your fate.",
-    "npc_background": "BG_survival_story_WORKER_COMMERCIAL",
-    "points": 1,
-    "skills": [ { "level": 3, "name": "tailor" }, { "level": 3, "name": "cooking" }, { "level": 3, "name": "driving" } ],
-    "proficiencies": [ "prof_food_prep", "prof_closures", "prof_knife_skills", "prof_knives_familiar" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "pocketwatch" },
-          { "item": "knife_small", "variant": "knife_steak" },
-          { "group": "charged_smart_phone" },
-          { "group": "starter_wallet_full" }
-        ]
-      },
-      "male": {
-        "entries": [
-          { "item": "briefs" },
-          { "item": "socks" },
-          { "item": "dress_shoes" },
-          { "item": "tux" },
-          { "item": "glasses_monocle" },
-          { "item": "collarpin" }
-        ]
-      },
-      "female": {
-        "entries": [
-          { "item": "panties" },
-          { "item": "bra" },
-          { "item": "stockings", "variant": "stockings_black" },
-          { "item": "garter_belt" },
-          { "item": "dress_shoes" },
-          { "item": "maid_dress" },
-          { "item": "maid_hat" },
-          { "item": "corset_waist" },
-          { "item": "fc_hairpin" }
-        ]
-      }
     }
   },
   {
@@ -3474,33 +3293,6 @@
     }
   },
   {
-    "id": "car_survivor",
-    "type": "profession",
-    "name": "Rideshare Driver",
-    "description": "You love driving, and decided to start making some money doing it.  On your way to pick up a customer, a riot broke out around you.  You took a long detour to safety, only to find yourself somewhere unfamiliar.",
-    "npc_background": "BG_survival_story_WORKER_COMMERCIAL",
-    "points": 3,
-    "proficiencies": [ "prof_driver" ],
-    "skills": [ { "level": 5, "name": "driving" }, { "level": 2, "name": "speech" } ],
-    "vehicle": "car",
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "sneakers" },
-          { "item": "socks" },
-          { "item": "jeans" },
-          { "item": "longshirt" },
-          { "item": "wristwatch" },
-          { "item": "water_clean" },
-          { "group": "charged_smart_phone" },
-          { "group": "starter_wallet_full" }
-        ]
-      },
-      "male": { "entries": [ { "item": "boxer_shorts" } ] },
-      "female": { "entries": [ { "item": "panties" }, { "item": "bra" } ] }
-    }
-  },
-  {
     "id": "emt_firefighter",
     "type": "profession",
     "name": "Paramedic Firefighter",
@@ -4024,37 +3816,6 @@
   },
   {
     "type": "profession",
-    "id": "dancer",
-    "name": "Ballroom Dancer",
-    "description": "Things got a little weird on your way to your weekly dance class.  Zombies don't seem to know how to dance, but you're not about to let them step on your toes.",
-    "npc_background": "BG_survival_story_SPORTS",
-    "points": 0,
-    "skills": [ { "level": 3, "name": "dodge" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "socks" },
-          { "item": "knit_scarf" },
-          { "item": "dance_shoes" },
-          { "group": "charged_smart_phone" },
-          { "group": "starter_wallet_full" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" }, { "item": "tux" }, { "item": "tourmaline_silver_cufflinks" } ] },
-      "female": {
-        "entries": [
-          { "item": "bra" },
-          { "item": "panties" },
-          { "item": "dress" },
-          { "item": "purse", "custom-flags": [ "auto_wield" ] },
-          { "item": "tourmaline_silver_bracelet" }
-        ]
-      }
-    },
-    "age_lower": 16
-  },
-  {
-    "type": "profession",
     "id": "patient",
     "name": "Patient",
     "description": "When the diagnosis came back positive, you made a vow: to fight for your life, and to never give in to despair.  Now is the time to renew that vow.",
@@ -4230,56 +3991,6 @@
       "male": { "entries": [ { "item": "briefs" } ] },
       "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
     }
-  },
-  {
-    "type": "profession",
-    "id": "clown",
-    "name": { "male": "Clown", "female": "Clowness" },
-    "description": "All you ever wanted was to make people laugh.  Dropping out of school and performing at kids' parties was a dream come true until the world ended.  There are precious few balloon animals in your future now.",
-    "npc_background": "BG_survival_story_WORKER_SELFEMP",
-    "points": -1,
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "clown_wig" },
-          { "item": "clown_suit" },
-          { "item": "clown_nose" },
-          { "item": "socks" },
-          { "item": "clownshoes" },
-          { "item": "airhorn" },
-          { "group": "charged_smart_phone" },
-          { "group": "starter_wallet_full" },
-          { "item": "balloon", "count": 20 }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
-    },
-    "missions": [ "MISSION_CLOWN" ]
-  },
-  {
-    "type": "profession",
-    "id": "lost_sub",
-    "name": "Lost Submissive",
-    "description": "In the rush to safety, you were separated from your master by cruel fate.  Now you are on your own, with nothing to your name but a suit of really kinky black leather.  Unfortunately, there are no safewords in the apocalypse.",
-    "npc_background": "BG_survival_story_VULNERABLE",
-    "points": -1,
-    "traits": [ "MASOCHIST" ],
-    "flags": [ "NO_BONUS_ITEMS" ],
-    "proficiencies": [ "prof_fibers", "prof_fibers_rope" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "bondage_suit" },
-          { "item": "bondage_mask" },
-          { "item": "boots" },
-          { "item": "gloves_leather" },
-          { "item": "leather_belt" },
-          { "group": "charged_matches", "custom-flags": [ "auto_wield" ] }
-        ]
-      }
-    },
-    "missions": [ "MISSION_LOST_SUB" ]
   },
   {
     "type": "profession",
@@ -4923,36 +4634,6 @@
   },
   {
     "type": "profession",
-    "id": "guru",
-    "name": "Guru",
-    "description": "You spent many years traveling through the world, becoming wise and learned.  Normally you can answer any question, but even you are not quite sure what to do about the ravenous undead.",
-    "npc_background": "BG_survival_story_SPIRITUAL",
-    "points": 1,
-    "skills": [ { "level": 5, "name": "speech" }, { "level": 3, "name": "survival" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "jeans" },
-          { "item": "socks" },
-          { "item": "robe" },
-          { "item": "turban" },
-          { "item": "waterskin" },
-          { "item": "pockknife" },
-          { "item": "mbag" },
-          { "item": "leathersandals" },
-          { "item": "holy_symbol" },
-          { "item": "wristwatch" },
-          { "group": "charged_smart_phone" },
-          { "group": "starter_wallet_full" },
-          { "item": "tshirt", "variant": "generic_tshirt" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
-    }
-  },
-  {
-    "type": "profession",
     "id": "preacher",
     "name": "Traveling Preacher",
     "description": "You devoted your life to spreading the good word, always on the road, traveling from town to town.  Now everything has gone to hell, you can't host your daily podcast, and the undead don't seem particularly moved by your sermons.",
@@ -5509,166 +5190,6 @@
   },
   {
     "type": "profession",
-    "id": "reenactor",
-    "name": { "male": "Historical Reenactor", "female": "Ahistorical Reenactor" },
-    "description": {
-      "npc_background": "BG_survival_story_EVACUEE",
-      "male": "You were on your way to the Annual All New England Revolutionary War Living History exhibition when the end of the world permanently derailed your plans.",
-      "female": "You were on your way to the Annual All New England Revolutionary War Living History exhibition when the end of the world made traditional gender roles obsolete."
-    },
-    "points": 2,
-    "proficiencies": [ "prof_gunsmithing_basic", "prof_metalworking", "prof_gunsmithing_antique", "prof_gun_cleaning" ],
-    "skills": [
-      { "level": 3, "name": "gun" },
-      { "level": 3, "name": "rifle" },
-      { "level": 3, "name": "mechanics" },
-      { "level": 2, "name": "tailor" },
-      { "level": 2, "name": "cooking" }
-    ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "stockings", "variant": "stockings_white" },
-          { "item": "pockknife" },
-          { "group": "pipe_smoke" },
-          { "item": "backpack" },
-          { "item": "knee_high_boots" },
-          { "item": "breeches" },
-          { "item": "waistcoat" },
-          { "item": "peacoat" },
-          { "item": "leather_belt" },
-          { "item": "knit_scarf" },
-          { "item": "tricorne" },
-          { "item": "hatchet" },
-          { "item": "hardtack" },
-          { "item": "pipe_cleaner" },
-          {
-            "item": "rifle_flintlock",
-            "ammo-item": "flintlock_ammo",
-            "charges": 1,
-            "contents-item": "shoulder_strap_simple"
-          },
-          { "item": "flintlock_pouch", "contents-group": "flintlock_pouch_reenactor" },
-          { "item": "flintlock_ammo", "charges": 15 },
-          { "item": "vinegar", "container-item": "bottle_plastic_small" },
-          { "item": "lamp_oil", "container-item": "bottle_plastic_small" },
-          { "group": "charged_smart_phone" },
-          { "group": "starter_wallet_full" },
-          { "group": "charged_matches" }
-        ]
-      }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "reenactor2",
-    "name": { "male": "Ahistorical Reenactor", "female": "Historical Reenactor" },
-    "description": {
-      "npc_background": "BG_survival_story_EVACUEE",
-      "male": "You were on your way to the Annual All New England Revolutionary War Living History exhibition when the end of the world made traditional gender roles obsolete.",
-      "female": "You were on your way to the Annual All New England Revolutionary War Living History exhibition when the end of the world permanently derailed your plans."
-    },
-    "points": 2,
-    "proficiencies": [ "prof_spinning", "prof_closures", "prof_knitting", "prof_gun_cleaning" ],
-    "skills": [
-      { "level": 4, "name": "tailor" },
-      { "level": 4, "name": "cooking" },
-      { "level": 2, "name": "gun" },
-      { "level": 2, "name": "rifle" }
-    ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "stockings", "variant": "stockings_white" },
-          { "item": "pockknife" },
-          { "group": "pipe_smoke" },
-          { "item": "backpack" },
-          { "item": "dress" },
-          { "item": "apron_leather" },
-          { "item": "boots" },
-          { "item": "gloves_leather" },
-          { "item": "long_knit_scarf" },
-          { "item": "hat_fur" },
-          { "item": "purse" },
-          { "item": "pot" },
-          { "item": "cornmeal", "count": 4, "container-item": "null", "entry-wrapper": "box_small" },
-          { "item": "salt", "count": 100, "container-item": "null", "entry-wrapper": "bag_plastic" },
-          { "item": "needle_wood", "ammo-item": "thread", "charges": 200 },
-          { "item": "oil_lamp", "charges": 750 },
-          { "group": "charged_smart_phone" },
-          { "group": "starter_wallet_full" },
-          { "group": "charged_matches" }
-        ]
-      }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "skaterkid",
-    "name": { "male": "Skater Boy (Rollerblades)", "female": "Skater Girl (Rollerblades)" },
-    "description": "You love to skate!  You've probably spent more time on a pair of blades than off.  Things have gotten pretty bad, but at least the grown-ups aren't telling you where you can't roll.",
-    "npc_background": "BG_survival_story_TEENAGER_TOUGH",
-    "points": 1,
-    "skills": [ { "level": 4, "name": "dodge" }, { "level": 3, "name": "driving" }, { "level": 2, "name": "swimming" } ],
-    "traits": [ "PROF_SKATER" ],
-    "proficiencies": [ "prof_athlete_basic" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "jeans" },
-          { "item": "socks" },
-          { "item": "elbow_pads" },
-          { "item": "knee_pads" },
-          { "item": "gloves_fingerless" },
-          { "item": "helmet_skid" },
-          { "item": "roller_blades" },
-          { "item": "wristwatch" },
-          { "item": "sports_drink" },
-          { "group": "charged_smart_phone" },
-          { "group": "starter_wallet_full" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" }, { "item": "hoodie" }, { "item": "tshirt" } ] },
-      "female": { "entries": [ { "item": "boy_shorts" }, { "item": "hoodie_cropped" }, { "item": "tshirt_cropped" } ] }
-    },
-    "age_lower": 16,
-    "age_upper": 21
-  },
-  {
-    "type": "profession",
-    "id": "skaterkid_board",
-    "name": { "male": "Skater Boy (Skateboard)", "female": "Skater Girl (Skateboard)" },
-    "description": "You love to skate!  You've probably spent more time on a skateboard than off.  Things have gotten pretty bad, but at least the grown-ups aren't telling you where you can't roll.",
-    "npc_background": "BG_survival_story_TEENAGER_TOUGH",
-    "points": 1,
-    "proficiencies": [ "prof_driver", "prof_athlete_basic" ],
-    "skills": [ { "level": 4, "name": "dodge" }, { "level": 3, "name": "driving" }, { "level": 2, "name": "swimming" } ],
-    "traits": [ "PROF_SKATER" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "jeans" },
-          { "item": "socks" },
-          { "item": "elbow_pads" },
-          { "item": "knee_pads" },
-          { "item": "gloves_fingerless" },
-          { "item": "helmet_skid" },
-          { "item": "sneakers" },
-          { "item": "folded_skateboard_generic" },
-          { "item": "wristwatch" },
-          { "item": "sports_drink" },
-          { "group": "charged_smart_phone" },
-          { "group": "starter_wallet_full" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" }, { "item": "hoodie" }, { "item": "tshirt" } ] },
-      "female": { "entries": [ { "item": "boy_shorts" }, { "item": "hoodie_cropped" }, { "item": "tshirt_cropped" } ] }
-    },
-    "age_lower": 16,
-    "age_upper": 21
-  },
-  {
-    "type": "profession",
     "id": "jdelinquent",
     "name": "Juvenile Delinquent",
     "description": "You never cared for grown-ups telling you what to do, so you ended up spending quite a few days in the principal's office.  Now, not needing grown-ups to tell you what to do is the only reason you're alive.  Man, you really should've played hooky today.",
@@ -5742,35 +5263,6 @@
           { "group": "starter_wallet_full" },
           { "group": "full_1st_aid" },
           { "group": "charged_flashlight" },
-          { "item": "tshirt", "variant": "generic_tshirt" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "boy_shorts" } ] }
-    },
-    "age_lower": 16,
-    "age_upper": 18
-  },
-  {
-    "type": "profession",
-    "id": "dodgeball_player",
-    "name": "Dodgeball Player",
-    "description": "In dodgeball, failing to dodge meant taking a ball to the head and being out of the game.  In the Cataclysm, it means getting eaten by monsters.  Don't slip up.",
-    "npc_background": "BG_survival_story_SPORTS",
-    "points": 2,
-    "skills": [ { "level": 5, "name": "dodge" }, { "level": 4, "name": "throw" }, { "level": 3, "name": "swimming" } ],
-    "proficiencies": [ "prof_athlete_basic" ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "jacket_light" },
-          { "item": "jeans" },
-          { "item": "socks_ankle" },
-          { "item": "lowtops" },
-          { "item": "slingpack" },
-          { "item": "juice" },
-          { "group": "charged_smart_phone" },
-          { "group": "starter_wallet_full" },
           { "item": "tshirt", "variant": "generic_tshirt" }
         ]
       },
@@ -5894,40 +5386,6 @@
       },
       "male": { "entries": [ { "item": "boxer_shorts" } ] },
       "female": { "entries": [ { "item": "boy_shorts" }, { "item": "bra" } ] }
-    }
-  },
-  {
-    "type": "profession",
-    "id": "gym_teacher",
-    "name": "Gym Teacher",
-    "description": "It was hard enough getting kids to run laps without having to worry about them trying to eat your brains.  Zombies won't even line up when you blow your whistle.",
-    "npc_background": "BG_survival_story_WORKER_PUBLIC",
-    "points": 2,
-    "skills": [
-      { "level": 3, "name": "swimming" },
-      { "level": 3, "name": "speech" },
-      { "level": 2, "name": "melee" },
-      { "level": 2, "name": "bashing" },
-      { "level": 2, "name": "throw" }
-    ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "baseball" },
-          { "item": "bat" },
-          { "item": "whistle" },
-          { "item": "shorts" },
-          { "item": "socks_ankle" },
-          { "item": "sneakers" },
-          { "item": "runner_bag" },
-          { "item": "wristwatch" },
-          { "group": "charged_smart_phone" },
-          { "group": "starter_wallet_full" },
-          { "item": "tank_top", "variant": "tank_top_generic" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boy_shorts" } ] }
     }
   },
   {
@@ -6361,58 +5819,6 @@
         ]
       }
     }
-  },
-  {
-    "type": "profession",
-    "id": "frat",
-    "name": { "male": "Frat Boy", "female": "Sorority Girl" },
-    "description": "You were living the high life, spending your parents' money without a care in the world.  At one of your usual crazy parties, the guests became hungry for more than drugs and booze, but you still have a chance to use the last symbol of your luxurious life - your sports car - and get far away.",
-    "npc_background": "BG_survival_story_ECCENTRIC",
-    "points": 2,
-    "proficiencies": [ "prof_driver" ],
-    "skills": [ { "level": 3, "name": "driving" }, { "level": 2, "name": "speech" } ],
-    "vehicle": "car_sports",
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "gold_watch" },
-          { "item": "sunglasses" },
-          { "item": "water_mineral" },
-          { "item": "money_strap_twenty" },
-          { "group": "charged_cigs" },
-          { "item": "mag_porn" },
-          { "group": "charged_ref_lighter" },
-          { "group": "charged_smart_phone" },
-          { "group": "starter_rich_wallet_full" }
-        ]
-      },
-      "male": {
-        "entries": [
-          { "item": "boxer_shorts" },
-          { "item": "pants", "variant": "pants_black" },
-          { "item": "dress_shoes" },
-          { "item": "polo_shirt" },
-          { "item": "socks" },
-          { "item": "mag_dude" }
-        ]
-      },
-      "female": {
-        "entries": [
-          { "item": "polo_shirt" },
-          { "item": "bra" },
-          { "item": "panties" },
-          { "item": "skirt" },
-          { "item": "heels" },
-          { "item": "stockings" },
-          { "item": "purse" },
-          { "item": "mag_glam" },
-          { "item": "bracelet_friendship" },
-          { "item": "opal_gold_ring" },
-          { "item": "opal_gold_earring" }
-        ]
-      }
-    },
-    "age_upper": 25
   },
   {
     "type": "profession",
@@ -7350,30 +6756,6 @@
   },
   {
     "type": "profession",
-    "id": "cheerleader",
-    "name": "Cheerleader",
-    "description": "Your last cheerleader routine ended abruptly after your partners switched sides to the undead team.  Let's hope your quick reflexes and flexibility help you to find new members for the squad.",
-    "npc_background": "BG_survival_story_SPORTS",
-    "points": 1,
-    "skills": [ { "level": 3, "name": "dodge" }, { "level": 3, "name": "swimming" }, { "level": 3, "name": "speech" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "pom_poms" },
-          { "item": "socks_ankle" },
-          { "item": "sneakers" },
-          { "item": "tank_top", "variant": "tank_top_cheerleader" }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" }, { "item": "shorts" } ] },
-      "female": { "entries": [ { "item": "sports_bra" }, { "item": "panties" }, { "item": "cheerleader_skirt" } ] }
-    },
-    "missions": [ "MISSION_SOCIAL_BUTTERFLY" ],
-    "age_lower": 16,
-    "age_upper": 23
-  },
-  {
-    "type": "profession",
     "id": "patriot",
     "name": "Patriot",
     "description": "You are a true American patriot, dressed with star-spangled clothing from head to toe.  The government has fallen, but the nation lives on with its people.",
@@ -7538,22 +6920,6 @@
       "female": { "entries": [ { "item": "flag_swimsuit", "variant": "generic_swimsuit" } ] }
     },
     "proficiencies": [ "prof_athlete_basic" ]
-  },
-  {
-    "type": "profession",
-    "id": "surfer",
-    "name": "Surfer",
-    "description": "You went to ride the waves, but the waves ended up riding you instead when a putrid hand appeared from underwater and grabbed you by the ankle.  You had to ditch your surfboard in favor of a kickboard, and now you'll fight every day to stay ahead of the wave of the undead.",
-    "npc_background": "BG_survival_story_SPORTS",
-    "points": 1,
-    "flags": [ "NO_BONUS_ITEMS" ],
-    "skills": [ { "level": 4, "name": "dodge" }, { "level": 4, "name": "swimming" } ],
-    "traits": [ "OUTDOORSMAN" ],
-    "items": {
-      "both": { "entries": [ { "item": "swimming_kickboard" } ] },
-      "male": { "entries": [ { "item": "wetsuit_top" }, { "item": "wetsuit_shorts" } ] },
-      "female": { "entries": [ { "item": "wetsuit_spring_sleeveless" } ] }
-    }
   },
   {
     "type": "profession",
