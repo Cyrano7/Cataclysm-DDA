@@ -382,11 +382,6 @@
         "description": "The current issue Army bayonet, before the Cataclysm anyways.  It is thick, heavy, and surprisingly sharp.  This bayonet also functions as a wire cutter, and a mediocre saw for cutting through aircraft fuselage.  That the handle and tang can be completely disassembled from the blade is surely a fact of great comfort to the soldier, survivalist, and you."
       },
       {
-        "id": "akbayonet",
-        "name": { "str": "AK bayonet" },
-        "description": "A 6H4 bayonet for Kalashnikov pattern rifles, usually imported military surplus from eastern bloc countries.  The blade is made of stainless steel and the handle of a lightweight and durable plastic.  It features a middling metal saw on the spine of the blade, and can function as a wire cutter as well.  Though it is quite sturdy, it can't hold an edge very well."
-      },
-      {
         "id": "exodiibayonet",
         "name": { "str": "L-backswerda" },
         "description": "A bayonet, although not of any model you're familiar with.  Despite differences in appearance it seems analogous to any other bayonet - The chrome shaded blade is worn but well-maintained, with a grooved edge on its back to act as a sawing implement.  The handle and guard have some additional mechanisms installed to help affix it to a variety of firearms.",
@@ -422,6 +417,68 @@
     "melee_damage": { "stab": 20 },
     "location": "bayonet lug",
     "mod_targets": [ "pistol", "smg", "rifle", "shotgun", "launcher", "crossbow" ],
+    "is_bayonet": true,
+    "blacklist_mod": [
+      "crafted_suppressor",
+      "filter_suppressor",
+      "shot_suppressor",
+      "suppressor",
+      "suppressor_compact",
+      "m203",
+      "m203_mod",
+      "m320_mod_mod",
+      "m320_mod",
+      "M6_shotgun",
+      "m26_mass",
+      "m26_mass_mod",
+      "masterkey",
+      "masterkey_mod",
+      "u_shotgun"
+    ],
+    "install_time": "5 s",
+    "to_hit_mod": 2
+  },
+  {
+    "id": "akbayonet",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "GUNMOD" ],
+    "category": "weapons",
+    "name": { "str": "AK bayonet 6Kh4" },
+    "description": "A 6Kh4 bayonet for Kalashnikov pattern rifles.  The blade is made of stainless steel and the handle of a lightweight and durable plastic.  It features a middling metal saw on the spine of the blade, and can function as a wire cutter as well.  Though it is quite sturdy, it can't hold an edge very well.",
+    "variants": [
+      {
+        "id": "akbayonet",
+        "name": { "str": "AK bayonet 6Kh4" },
+        "description": "A 6Kh4 bayonet for Kalashnikov pattern rifles.  The blade is made of stainless steel and the handle of a lightweight and durable plastic.  It features a middling metal saw on the spine of the blade, and can function as a wire cutter as well.  Though it is quite sturdy, it can't hold an edge very well."
+      }
+    ],
+    "weight": "450 g",
+    "volume": "209 ml",
+    "longest_side": "30 cm",
+    "price": "100 USD",
+    "price_postapoc": "12 USD 50 cent",
+    "to_hit": { "grip": "weapon", "length": "hand", "surface": "point", "balance": "good" },
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "brown",
+    "looks_like": "knife_combat",
+    "min_skills": [ [ "weapon", 2 ], [ "melee", 1 ] ],
+    "qualities": [ [ "CUT", 2 ], [ "SAW_M", 1 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 15 ] ],
+    "thrown_damage": [ { "damage_type": "stab", "amount": 14 } ],
+    "flags": [
+      "DURABLE_MELEE",
+      "SHEATH_KNIFE",
+      "NPC_THROWN",
+      "ALLOWS_BODY_BLOCK",
+      "PUMP_RAIL_COMPATIBLE",
+      "NO_SALVAGE",
+      "CONDUCTIVE"
+    ],
+    "faults": [ { "fault_group": "handle_short" }, { "fault_group": "blade_general", "weight_mult": 5 } ],
+    "weapon_category": [ "KNIVES" ],
+    "melee_damage": { "stab": 20 },
+    "location": "bayonet lug",
+    "mod_targets": [ "ak47", "ak47_semi", "ak74_semi", "kord" ],
     "is_bayonet": true,
     "blacklist_mod": [
       "crafted_suppressor",

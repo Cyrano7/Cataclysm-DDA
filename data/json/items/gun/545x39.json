@@ -34,6 +34,7 @@
       [ "sling", 1 ],
       [ "stock accessory", 1 ],
       [ "stock mount", 1 ],
+      [ "bayonet lug", 1 ],
       [ "underbarrel mount", 1 ],
       [ "muzzle", 1 ]
     ],
@@ -70,6 +71,7 @@
       [ "sling", 1 ],
       [ "stock accessory", 1 ],
       [ "stock mount", 1 ],
+      [ "bayonet lug", 1 ],
       [ "underbarrel mount", 1 ]
     ],
     "flags": [ "MISSION_ITEM" ],
