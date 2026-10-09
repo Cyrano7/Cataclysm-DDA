@@ -84,7 +84,7 @@
     ]
   },
   {
-    "id": "aksemi",
+    "id": "ak47_semi",
     "copy-from": "gun_base_762_semi_rifle",
     "looks_like": "modular_ar15",
     "type": "ITEM",

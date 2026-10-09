@@ -783,7 +783,7 @@
     "id": "guns_rifle_common_display_762",
     "items": [
       { "item": "sks", "prob": 34 },
-      { "item": "aksemi", "prob": 100 },
+      { "item": "ak47_semi", "prob": 100 },
       { "item": "mk47", "prob": 26 },
       { "item": "bren2_762", "prob": 1 },
       { "group": "ar15_762", "prob": 5 }

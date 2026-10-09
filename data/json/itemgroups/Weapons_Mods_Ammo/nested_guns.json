@@ -1766,7 +1766,7 @@
     "subtype": "collection",
     "ammo": 100,
     "entries": [
-      { "item": "aksemi", "charges": [ 0, 30 ] },
+      { "item": "ak47_semi", "charges": [ 0, 30 ] },
       { "item": "akmag10" },
       { "item": "akmag10", "prob": 50 },
       { "group": "on_hand_762" }

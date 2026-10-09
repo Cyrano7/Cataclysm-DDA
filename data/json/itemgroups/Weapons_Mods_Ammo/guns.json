@@ -255,7 +255,7 @@
       { "item": "sl8", "prob": 20, "charges": 0 },
       { "item": "win70_458", "prob": 15 },
       { "item": "sig_assault_rifle", "prob": 4, "charges": 0 },
-      { "item": "aksemi", "prob": 100, "charges": 0 }
+      { "item": "ak47_semi", "prob": 100, "charges": 0 }
     ]
   },
   {

@@ -1116,7 +1116,7 @@
     "entries": [
       { "item": "akmag10", "count": [ 1, 2 ] },
       { "group": "firearm_box_extras" },
-      { "distribution": [ { "item": "aksemi", "prob": 100 }, { "item": "mk47", "prob": 26 } ] }
+      { "distribution": [ { "item": "ak47_semi", "prob": 100 }, { "item": "mk47", "prob": 26 } ] }
     ]
   },
   {
