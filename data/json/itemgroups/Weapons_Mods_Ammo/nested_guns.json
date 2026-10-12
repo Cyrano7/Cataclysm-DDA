@@ -2241,7 +2241,7 @@
     "subtype": "collection",
     "ammo": 100,
     "entries": [
-      { "item": "ak74_semi", "variant": "ak74_fixed", "charges": [ 0, 30 ] },
+      { "item": "ak74_semi", "variant": "ak74_semi", "charges": [ 0, 30 ] },
       { "item": "ak74mag" },
       { "item": "ak74mag", "prob": 50 },
       { "group": "on_hand_545x39" }
