@@ -1,18 +1,18 @@
 [
   {
-    "id": "ak74_semi",
+    "id": "ak74",
     "copy-from": "gun_base_rifle_semi",
     "looks_like": "modular_ar15",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "name": { "str": "AK-74 rifle" },
-    "description": "Flaunting classically iconic lines and a profile instantly recognizable to any viewer, this American semi-automatic weapon is a replica of the AK-47 rifle's technological descendant, the AK-74, a weapon with more notable differences from its elder sibling than simply flipping the order of its name's numbers.  Firing the rare, at least for the United States, 5.45x39mm Soviet cartridge, this clone makes use of original 5.45mm banana magazines.  Considering the scarcity of its munitions, you might be obliged to resort to hand-loading your own ammunition.",
+    "description": "The successor to the well-known AK-47 rifle.  It combines the reliability of the AK series with the high-velocity, lightweight 5.45x39mm cartridge.",
     "variant_type": "gun",
     "variants": [
       {
-        "id": "ak74_semi",
+        "id": "ak74",
         "name": { "str": "AK-74 rifle" },
-        "description": "A rifle of the Cold War, or at least a dead ringer for it, this weapon is a semi-automatic clone of the Soviet Union's standard assault rifle following 1974.  Either a locally-built replica or produced from an imported, foreign parts kit, fitted with a fixed wooden buttstock, a side-mounted optics rail, and a barrel threaded for suppressors, the rifle's chambered for the Russian 5.45x39mm cartridge and feeds from AK-74 magazines.  A Communist gun built in Capitalist America; bar hoofing it to eastern Europe, the weapon's likely the closest you'll ever get to laying your palms on a Russian Kalashnikov."
+        "description": "The successor to the well-known AK-47 rifle.  It combines the reliability of the AK series with the high-velocity, lightweight 5.45x39mm cartridge."
       }
     ],
     "weight": "3400 g",
@@ -20,10 +20,10 @@
     "longest_side": "895 mm",
     "barrel_length": "413 mm",
     "price": "1 kUSD 115 USD",
-    "price_postapoc": "35 USD",
     "ammo": [ "545x39" ],
     "dispersion": 200,
     "min_cycle_recoil": 1260,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 4 ] ],
     "default_mods": [ "offset_sight_rail" ],
     "valid_mod_locations": [
       [ "barrel", 1 ],
@@ -39,6 +39,24 @@
       [ "muzzle", 1 ]
     ],
     "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "ak74mag", "rpk74mag", "casket74mag" ] } ]
+  },
+  {
+    "id": "ak74_semi",
+    "copy-from": "ak74",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
+    "name": { "str": "AK-74 semi-auto rifle" },
+    "description": "The successor to the well-known AK-47 rifle.  It combines the reliability of the AK series with the high-velocity, lightweight 5.45x39mm cartridge.  This is a semi-automatic version.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "ak74_semi",
+        "name": { "str": "AK-74 semi-auto rifle" },
+        "description": "The successor to the well-known AK-47 rifle.  It combines the reliability of the AK series with the high-velocity, lightweight 5.45x39mm cartridge.  This is a semi-automatic version."
+      }
+    ],
+    "price": "1 kUSD 115 USD",
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ] ]
   },
   {
     "id": "kord",

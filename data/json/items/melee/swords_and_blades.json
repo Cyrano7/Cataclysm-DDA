@@ -478,7 +478,7 @@
     "weapon_category": [ "KNIVES" ],
     "melee_damage": { "stab": 20 },
     "location": "bayonet lug",
-    "mod_targets": [ "ak47", "ak47_semi", "ak74_semi", "kord" ],
+    "mod_targets": [ "ak47", "ak47_semi", "ak74", "ak74_semi", "kord" ],
     "is_bayonet": true,
     "blacklist_mod": [
       "crafted_suppressor",
