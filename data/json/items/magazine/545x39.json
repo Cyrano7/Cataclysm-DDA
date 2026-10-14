@@ -5,13 +5,13 @@
     "looks_like": "stanag30",
     "type": "ITEM",
     "subtypes": [ "MAGAZINE" ],
-    "name": { "str": "5.45mm 30-round AK magazine" },
+    "name": { "str": "AK 30-round 5.45mm magazine" },
     "description": "A standard magazine made for 5.45x39mm rifles, made mostly of polymer with steel reinforcements.",
     "variant_type": "gun",
     "variants": [
       {
         "id": "ak74mag",
-        "name": { "str": "AK-74 30-round magazine" },
+        "name": { "str": "AK 30-round 5.45mm magazine" },
         "description": "A 30-round, curved box magazine for Kalashnikov AK-74 pattern firearms chambered in 5.45x39mm Soviet.  Generally made from steel-reinforced polymer, surplus examples found most utility within the contemporary United States in feeding semi-automatic examples of eastern bloc AK-74 rifles."
       }
     ],
@@ -33,13 +33,13 @@
     "looks_like": "stanag30",
     "type": "ITEM",
     "subtypes": [ "MAGAZINE" ],
-    "name": { "str": "5.45mm 45-round AK magazine" },
+    "name": { "str": "AK 45-round 5.45mm magazine" },
     "description": "A 45-round polymer magazine compatible with 5.45x39mm rifles, though originally designed for use with Soviet light machine guns built upon similar design pattens.",
     "variant_type": "gun",
     "variants": [
       {
         "id": "rpk74mag",
-        "name": { "str": "AK-74 45-round magazine" },
+        "name": { "str": "AK 45-round 5.45mm magazine" },
         "description": "Originally built to feed Soviet RPK-74 light machine guns, this curved 45-round box magazine possesses an aggressive waffle texture pattern and also fits other Kalashnikov-based long guns, namely the AK-74 and modern civilian legal variants."
       }
     ],
@@ -62,13 +62,13 @@
     "looks_like": "stanag30",
     "type": "ITEM",
     "subtypes": [ "MAGAZINE" ],
-    "name": { "str": "5.45mm 60-round AK magazine" },
+    "name": { "str": "AK 60-round 5.45mm magazine" },
     "description": "A 60-round polymer magazine compatible with 5.45x39mm rifles.",
     "variant_type": "gun",
     "variants": [
       {
         "id": "casket74mag",
-        "name": { "str": "AK-74 60-round casket magazine" },
+        "name": { "str": "AK 60-round 5.45mm magazine" },
         "description": "A casket magazine that combines four stacks of 5.45x39mm Soviet ammunition into a solid brick of plastic, built for interfacing with the magazine wells of Kalashnikov-pattern firearms, namely the AK-74 assault rifle and subsequent derivatives."
       }
     ],
