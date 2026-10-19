@@ -772,7 +772,7 @@
   {
     "id": "OLD_CURRENCY",
     "type": "json_flag",
-    "info": "This item used to be legal tender before the Cataclysm."
+    "info": "This item is legal tender outside the \"Zone\" and can be traded for its face value."
   },
   {
     "id": "NO_AUTO_CONSUME",
